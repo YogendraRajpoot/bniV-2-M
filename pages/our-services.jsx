@@ -81,7 +81,7 @@ export default function OurServices(){
                                 <div className="unified-vision wow fadeInUp">
                                     <div className="content">
                                         <h4>IT Staffing</h4>
-                                        <p>Get ready to take your team to new heights with our expert recruiting staff</p>
+                                        <p>We provide skilled IT professionals specializing across a wide range of technologies like software development, data analytics, cybersecurity, cloud computing, and more. Whether you need contract, contract-to-hire, or full-time talent, we match you with talented experts ready to help you meet your goals.</p>
                                     </div>
                                     <div className="icon">
                                         <a href="/"><i className="fa fa-arrow-right" aria-hidden="true"></i></a>
@@ -92,7 +92,7 @@ export default function OurServices(){
                                 <div className="unified-vision wow fadeInUp">
                                     <div className="content">
                                         <h4>Creative and Marketing Staffing</h4>
-                                        <p>We specialize in creative and marketing staffing, connecting you with top talent to drive your brand forward.</p>
+                                        <p>From graphic designers and copywriters to UX/UI specialists, we help your brand find the professionals who bring your image to life. Our talent pool ranges strategic thinkers and hands-on creators involved in branding, crafting content, campaigns, and digital engagement.</p>
                                     </div>
                                     <div className="icon">
                                         <a href="/"><i className="fa fa-arrow-right" aria-hidden="true"></i></a>
@@ -105,7 +105,7 @@ export default function OurServices(){
                                 <div className="unified-vision wow fadeInUp">
                                     <div className="content">
                                         <h4>Healthcare Staffing</h4>
-                                        <p>BNI Healthcare boasts a team of experts dedicated to crafting specialized staffing solutions</p>
+                                        <p>We deliver highly qualified healthcare professionals to hospitals, clinics, and other healthcare networks. Our services include staffing for nurses, medical assistants, and other administrative roles. We ensure speed, care, and quality when delivering talent.</p>
                                     </div>
                                     <div className="icon">
                                         <a href="/"><i className="fa fa-arrow-right" aria-hidden="true"></i></a>
@@ -116,7 +116,7 @@ export default function OurServices(){
                                 <div className="unified-vision wow fadeInUp">
                                     <div className="content">
                                         <h4>RPO</h4>
-                                        <p>Our RPO (Recruitment Process Outsourcing) services streamline your hiring process by providing expert talent acquisition solutions.</p>
+                                        <p>Let us manage some or all of your recruitment process. With our RPO services, you gain a reliable partner to handle sourcing, attracting, and onboarding talent. We take tasks off your plate, reducing costs and hiring professional talent on time.</p>
                                     </div>
                                     <div className="icon">
                                         <a href="/"><i className="fa fa-arrow-right" aria-hidden="true"></i></a>
@@ -129,7 +129,7 @@ export default function OurServices(){
                                 <div className="unified-vision wow fadeInUp">
                                     <div className="content">
                                         <h4>Professional Staffing</h4>
-                                        <p>Intuitive mobile app development.</p>
+                                        <p>We connect businesses with professionals across industries like finance, administration, HR, customer service, and other functions. We deliver candidates who align with your culture and goals whether you need them long-term or interim support.</p>
                                     </div>
                                     <div className="icon">
                                         <a href="/"><i className="fa fa-arrow-right" aria-hidden="true"></i></a>
@@ -140,7 +140,7 @@ export default function OurServices(){
                                 <div className="unified-vision wow fadeInUp">
                                     <div className="content">
                                         <h4>Payroll Services</h4>
-                                        <p>Our payroll services ensure accurate, timely, and compliant management of your employee payroll. </p>
+                                        <p>Our payroll services simplify your compensation and contract management in compliance with your needs. We take on your administrative burdens like handling payroll, tax filing, and coordinating benefits so that you can focus on running your business.</p>
                                     </div>
                                     <div className="icon">
                                         <a href="/"><i className="fa fa-arrow-right" aria-hidden="true"></i></a>
@@ -153,7 +153,7 @@ export default function OurServices(){
                                 <div className="unified-vision wow fadeInUp">
                                     <div className="content">
                                         <h4>Engineering Staffing</h4>
-                                        <p>We offer expert engineering staffing services</p>
+                                        <p>Our engineers bring industry-specific experience and technical expertise to bring your innovations to life. We meet your needs where they are by finding the talent with the right skills and background knowledge to help you close projects.</p>
                                     </div>
                                     <div className="icon">
                                         <a href="/"><i className="fa fa-arrow-right" aria-hidden="true"></i></a>
@@ -180,7 +180,7 @@ export default function OurServices(){
                                 <div className="unified-vision wow fadeInUp">
                                     <div className="content">
                                         <h4>Web Application Development</h4>
-                                        <p>We design and develop custom web applications that are thorough, user-friendly, and scalable. From internal business insights to customer-facing platforms, we design and build responsive webpages that are tailored to your company’s specific needs.</p>
+                                        <p>We design and develop custom web applications that are thorough, user-friendly, and scalable. From internal business insights to customer-facing platforms, we design and build responsive webpages that are tailored to your company’s specific needs. </p>
                                     </div>
                                     <div className="icon">
                                         <a href="/"><i className="fa fa-arrow-right" aria-hidden="true"></i></a>
@@ -191,7 +191,7 @@ export default function OurServices(){
                                 <div className="unified-vision wow fadeInUp">
                                     <div className="content">
                                         <h4>Digital Marketing</h4>
-                                        <p>Maximize your business potential with software that is tailored to your unique needs that enhances your operations.</p>
+                                        <p>Our digital marketing consultants help you grow your online presence, drive traffic to your webpage, and convert leads. We offer SEO, social media strategy, email marketing, and automate processes for ease of use. We tailor all our solutions to increase visibility and maximize ROI.</p>
                                     </div>
                                     <div className="icon">
                                         <a href="/"><i className="fa fa-arrow-right" aria-hidden="true"></i></a>
@@ -204,7 +204,7 @@ export default function OurServices(){
                                 <div className="unified-vision wow fadeInUp">
                                     <div className="content">
                                         <h4>Mobile Applications</h4>
-                                        <p>Intuitive mobile app development.</p>
+                                        <p>We create custom mobile apps for iOS and Android that provide seamless user experiences and efficient functionality. We build secure and scalable apps that support your business objectives and engage users. We cater to your needs and emphasize quality and user-friendly applications for you and your customers.</p>
                                     </div>
                                     <div className="icon">
                                         <a href="/"><i className="fa fa-arrow-right" aria-hidden="true"></i></a>
@@ -215,7 +215,7 @@ export default function OurServices(){
                                 <div className="unified-vision wow fadeInUp">
                                     <div className="content">
                                         <h4>QA Testing</h4>
-                                        <p>Maximize your business potential with software that is tailored to your unique needs that enhances your operations.</p>
+                                        <p>Quality is our specialty. Our systematic process ensures your products and services meet specific requirements and standards. Our thorough process prevents defects from reaching users to protect the quality and integrity of your products.</p>
                                     </div>
                                     <div className="icon">
                                         <a href="/"><i className="fa fa-arrow-right" aria-hidden="true"></i></a>

@@ -67,9 +67,7 @@ export default function Footer(){
                                     <ul>
                                         <li><Link href="/talent-solution">Talent Solution</Link></li>
                                         <li><Link href="/it-consulting-services">IT Consulting Services</Link></li>
-                                        <li><Link href="/offshore-development-services">Offshore Development</Link></li>
-                                        <li><a href="rpo">RPO</a></li>
-                                        <li><a href="payroll-services">Payroll Services</a></li>
+                                        <li><Link href="/offshore-development-services">Offshore Development</Link></li>                                        
                                     </ul>
                                 </div>
                             </div>

@@ -80,9 +80,8 @@ export default function AboutUs(){
                                 </div>
                                 <div className="col-12 col-lg-8 col-xl-7 order-2 order-lg-1 order-xl-1">
                                     <div className="mission-content wow fadeInUp">
-                                        <h5 className="section-title-v1">OUR VISION</h5>
-                                        <h1 className="section-title">Lorem Ipsum is simply dummy text of is the typesetting industry.</h1>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printereap into electronic typesetting, remainingset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of simply dummy text of the printing and typesetting industry. Lorem Ipsum has been simply dummy text of the printing and the industry's standard dummy text ever since the 1500s, when and more recently with desktop publishing software like</p>
+                                        <h5 className="section-title-v1">OUR VISION</h5>                                        
+                                        <p>Business Needs is not one thing, one service, or one product. Business Needs is your trusted partner. Our vision when collaborating is to be your right hand, a shoulder to lean on for all your complex needs. We want to be there for you, whether it is staffing or app development, we cover it all from A-Z.</p>
                                     </div>
                                 </div>
                             </div>
@@ -99,9 +98,8 @@ export default function AboutUs(){
                             </div>
                             <div className="col-12 col-md-8 col-lg-7">
                                 <div className="mission-content wow fadeInUp">
-                                    <h5 className="section-title-v1">OUR MISSION</h5>
-                                    <h1 className="section-title">Lorem Ipsum is simply dummy text of is the typesetting industry.</h1>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printereap into electronic typesetting, remainingset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of simply dummy text of the printing and typesetting industry. Lorem Ipsum has been simply dumstandard dummy text ever since the 1500s, when and more recently with desktop publishing software like</p>
+                                    <h5 className="section-title-v1">OUR MISSION</h5>                                    
+                                    <p>Our mission is to deliver innovative and scalable IT and staffing solutions that drive business growth. We empower our clients by becoming their trusted partner in all their business ventures. We ensure that our clients receive high quality delivery, reliable support, and measurable impact.</p>
                                 </div>
                             </div>
                         </div>
@@ -109,7 +107,7 @@ export default function AboutUs(){
                 </div>
             </section>
 
-            <section className="our-mission-wrapper our-vision-wrapper">
+            <section className="our-mission-wrapper our-vision-wrapper" id="our-core-value">
                 <div className="container">
                     <div className="our-mission">
                         <div className="row align-items-center">
@@ -119,8 +117,16 @@ export default function AboutUs(){
                             <div className="col-12 col-lg-8 col-xl-7 order-2 order-lg-1 order-xl-1">
                                 <div className="mission-content wow fadeInUp">
                                     <h5 className="section-title-v1">OUR CORE VALUES</h5>
-                                    <h1 className="section-title">BNI has adopted Quality Production as its basic principle.</h1>
-                                    <p>At At Business Needs Inc, we celebrate diversity at every level, valuing individuals from various backgrounds and walks of life. Our DE&I initiatives encompass a range of focus areas.</p>
+                                    <h6>Client-Centered Partnership</h6>
+                                    <p>We believe in building long-term partnerships. We want our clients to succeed, which means their goals become our mission.</p>
+                                    <h6>Innovative Solutions</h6>
+                                    <p>We stay ahead of the trends. From embracing cutting edge technology like AI to proactively researching new solutions, we deliver forward-thinking results.</p>
+                                    <h6>Excellence in Execution</h6>
+                                    <p>Whether it is staffing, consulting, or website development, we are committed to delivering exceptional quality, timely and on target.</p>
+                                    <h6>Adaptability and Agility</h6>
+                                    <p>In today's fast paced climate with everchanging technology, Business Needs evolves with your needs, ensuring you stay ahead of the curve.</p>
+                                    <h6>Diversity and Inclusion</h6>
+                                    <p>We value different perspectives and backgrounds within our organization and the talent we deliver.</p>
                                 </div>
                             </div>
                         </div>

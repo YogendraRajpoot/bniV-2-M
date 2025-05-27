@@ -41,10 +41,7 @@ export default function TalentSolution(){
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" data-bs-toggle="tab" href="#our-strategy">Our Strategy</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" data-bs-toggle="tab" href="/">Case Study</a>
-                                </li>
+                                </li>                               
                             </ul>
                         </div>
                         <div className="col-12 col-md-8 col-lg-9 order-2 order-lg-1">                           
@@ -65,57 +62,82 @@ export default function TalentSolution(){
             <section className="our-core-services gray-bg" id="our-core-services">
                 <div className="container">
                     <h1 className="section-title wow fadeInUp">Executive Recruitment Services</h1>
-                    <div className="unified-vision-wrapper">
-                        <div className="row">
-                            <div className="col-12 col-lg-6">
-                                <div className="unified-vision wow fadeInUp">
-                                    <div className="content">
-                                        <h4>Web Application Development</h4>
-                                        <p>Enhance your online presence and attract more customers</p>
-                                    </div>
-                                    <div className="icon">
-                                        <a href="/"><i className="fa fa-arrow-right" aria-hidden="true"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-12 col-lg-6">
-                                <div className="unified-vision wow fadeInUp">
-                                    <div className="content">
-                                       <h4>Mobile Applications</h4>
-                                       <p>Intuitive mobile app development.</p>
-                                    </div>
-                                    <div className="icon">
-                                        <a href="/"><i className="fa fa-arrow-right" aria-hidden="true"></i></a>
+
+                    <section className="our-mission-vision-core-wrapper gray-bg">
+                        <section className="our-mission-wrapper our-vision-wrapper">
+                            <div className="container">
+                                <div className="our-mission">
+                                    <div className="row align-items-center">
+                                        <div className="col-12 col-lg-4 col-xl-5 order-1 order-lg-2 order-xl-2">
+                                            <div className="mission-img wow fadeInRight"><img src="./images/case-study.png" alt="" /></div>
+                                        </div>
+                                        <div className="col-12 col-lg-8 col-xl-7 order-2 order-lg-1 order-xl-1">
+                                            <div className="mission-content wow fadeInUp">
+                                                <h5 className="section-title-v1">Web Application Development</h5>                                        
+                                                <p>We design and develop custom web applications that are thorough, user-friendly, and scalable. From internal business insights to customer-facing platforms, we design and build responsive webpages that are tailored to your company’s specific needs. </p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="row">
-                            <div className="col-12 col-lg-6">
-                                <div className="unified-vision wow fadeInUp">
-                                    <div className="content">
-                                        <h4>Digital Merketing</h4>
-                                        <p>Maximize your business potential with software that is tailored to your unique needs that enhances your operations.</p>
-                                    </div>
-                                    <div className="icon">
-                                        <a href="/"><i className="fa fa-arrow-right" aria-hidden="true"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-12 col-lg-6">
-                                <div className="unified-vision wow fadeInUp">
-                                    <div className="content">
-                                        <h4>QA Testing</h4>
-                                        <p>Maximize your business potential with software that is tailored to your unique needs that enhances your operations.</p>
-                                    </div>
-                                    <div className="icon">
-                                        <a href="/"><i className="fa fa-arrow-right" aria-hidden="true"></i></a>
+                        </section>
+
+                        <section className="our-mission-wrapper">
+                            <div className="container">
+                                <div className="our-mission">
+                                    <div className="row align-items-center">
+                                        <div className="col-12 col-md-4 col-lg-5">
+                                            <div className="mission-img wow fadeInLeft"><img src="./images/case-study.png" alt="" /></div>
+                                        </div>
+                                        <div className="col-12 col-md-8 col-lg-7">
+                                            <div className="mission-content wow fadeInUp">
+                                                <h5 className="section-title-v1">Mobile Applications</h5>                                    
+                                                <p>We create custom mobile apps for iOS and Android that provide seamless user experiences and efficient functionality. We build secure and scalable apps that support your business objectives and engage users. We cater to your needs and emphasize quality and user-friendly applications for you and your customers.</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>                       
-                        
-                    </div>
+                        </section>
+
+                        <section className="our-mission-wrapper our-vision-wrapper">
+                            <div className="container">
+                                <div className="our-mission">
+                                    <div className="row align-items-center">
+                                        <div className="col-12 col-lg-4 col-xl-5 order-1 order-lg-2 order-xl-2">
+                                            <div className="mission-img wow fadeInRight"><img src="./images/case-study.png" alt="" /></div>
+                                        </div>
+                                        <div className="col-12 col-lg-8 col-xl-7 order-2 order-lg-1 order-xl-1">
+                                            <div className="mission-content wow fadeInUp">
+                                                <h5 className="section-title-v1">Digital Marketing</h5>                                        
+                                                <p>Our digital marketing consultants help you grow your online presence, drive traffic to your webpage, and convert leads. We offer SEO, social media strategy, email marketing, and automate processes for ease of use. We tailor all our solutions to increase visibility and maximize ROI.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section className="our-mission-wrapper">
+                            <div className="container">
+                                <div className="our-mission">
+                                    <div className="row align-items-center">
+                                        <div className="col-12 col-md-4 col-lg-5">
+                                            <div className="mission-img wow fadeInLeft"><img src="./images/case-study.png" alt="" /></div>
+                                        </div>
+                                        <div className="col-12 col-md-8 col-lg-7">
+                                            <div className="mission-content wow fadeInUp">
+                                                <h5 className="section-title-v1">QA Testing</h5>                                    
+                                                <p>Quality is our specialty. Our systematic process ensures your products and services meet specific requirements and standards. Our thorough process prevents defects from reaching users to protect the quality and integrity of your products.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section> 
+                   
+                   </section>    
+                    
                 </div>
             </section>            
 

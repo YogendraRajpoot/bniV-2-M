@@ -41,10 +41,7 @@ export default function TalentSolution(){
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" data-bs-toggle="tab" href="#our-strategy">Our Strategy</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" data-bs-toggle="tab" href="/">Case Study</a>
-                                </li>
+                                </li>                               
                             </ul>
                         </div>
                         <div className="col-12 col-md-8 col-lg-9 order-2 order-lg-1">                           
@@ -65,49 +62,46 @@ export default function TalentSolution(){
             <section className="our-core-services gray-bg" id="our-core-services">
                 <div className="container">
                     <h1 className="section-title wow fadeInUp">Executive Recruitment Services</h1>
-                    <div className="unified-vision-wrapper">
-                        <div className="row">
-                            <div className="col-12 col-lg-6">
-                                <div className="unified-vision wow fadeInUp">
-                                    <div className="content">
-                                        <h4>Offshore Development Center</h4>
-                                        <p>Enhance your online presence and attract more customers</p>
-                                    </div>
-                                    <div className="icon">
-                                        <a href="/"><i className="fa fa-arrow-right" aria-hidden="true"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-12 col-lg-6">
-                                <div className="unified-vision wow fadeInUp">
-                                    <div className="content">
-                                       <h4>Dedicated Team</h4>
-                                       <p>Enhance your online presence and attract more customers</p>
-                                    </div>
-                                    <div className="icon">
-                                        <a href="/"><i className="fa fa-arrow-right" aria-hidden="true"></i></a>
+
+                    <section className="our-mission-vision-core-wrapper gray-bg">
+                        <section className="our-mission-wrapper our-vision-wrapper">
+                            <div className="container">
+                                <div className="our-mission">
+                                    <div className="row align-items-center">
+                                        <div className="col-12 col-lg-4 col-xl-5 order-1 order-lg-2 order-xl-2">
+                                            <div className="mission-img wow fadeInRight"><img src="./images/case-study.png" alt="" /></div>
+                                        </div>
+                                        <div className="col-12 col-lg-8 col-xl-7 order-2 order-lg-1 order-xl-1">
+                                            <div className="mission-content wow fadeInUp">
+                                                <h5 className="section-title-v1">Offshore Development Center</h5>                                        
+                                                <p>Our offshore development center functions as a branch of your team. We establish a hub tailored to your project requirements and goals. We handle the setup of your talent onboarding and project management so that you can focus on innovation and growth. We provide reduced costs, faster deadlines, and full control over your team.</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="row">
-                            <div className="col-12 col-lg-6">
-                                <div className="unified-vision wow fadeInUp">
-                                    <div className="content">
-                                        <h4>Dedicated Team</h4>
-                                        <p>Enhance your online presence and attract more customers</p>
-                                    </div>
-                                    <div className="icon">
-                                        <a href="/"><i className="fa fa-arrow-right" aria-hidden="true"></i></a>
+                        </section>
+
+                        <section className="our-mission-wrapper">
+                            <div className="container">
+                                <div className="our-mission">
+                                    <div className="row align-items-center">
+                                        <div className="col-12 col-md-4 col-lg-5">
+                                            <div className="mission-img wow fadeInLeft"><img src="./images/case-study.png" alt="" /></div>
+                                        </div>
+                                        <div className="col-12 col-md-8 col-lg-7">
+                                            <div className="mission-content wow fadeInUp">
+                                                <h5 className="section-title-v1">Dedicated Team</h5>                                    
+                                                <p>Our dedicated team is comprised of experienced professionals who work together exclusively on your project. This model offers greater collaboration, stability, and alignment with your company goals. You manage the project, and we take administrative tasks off your plate so that you can focus on your bigger vision.</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-12 col-lg-6">
-                                
-                            </div>
-                        </div>                       
-                        
-                    </div>
+                        </section>                        
+                   
+                   </section>  
+                    
                 </div>
             </section>            
 

@@ -66,11 +66,11 @@ export default function CelebratingComponent() {
                 </div>
                 <div className="col-12 col-lg-6">
                     <div className="celebrating-content wow fadeInUp">
-                        <h1 className="section-title">Celebrating 20 Years of Excellence</h1>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <h1 className="section-title">20+ Years of Excellence</h1>
+                        <p>For over 20 years, Business Needs Inc. has been a trusted partner in delivering tailored IT solutions and expert staffing services. Our legacy is built upon client trust, innovation, and excellence in every partnership. From our first consulting project, to creating new ventures in other industries, Business Needs is committed to growth and innovation. We are proud to expand our impact as a parent company to a growing group of brands.</p>
                     </div>
                     <div className="celebrating-brands">
-                        <h3 className="wow fadeInUp">Our Brands</h3>
+                        <h3 className="wow fadeInUp">Check Out Our Brands</h3>
                         <div className="our-brands-slider">
                             <div>
                                 <div className="brand wow fadeInUp" data-wow-delay="0.1s"><img src="./images/our-brand-01.png" alt="" /></div>
