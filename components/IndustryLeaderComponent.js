@@ -63,36 +63,30 @@ export default function IndustryLeaderComponent() {
                     <div className="leader-slide">
                         <div className="leader-head">
                             <div className="leader-img"><img src="./images/testimonials-img-01.png" alt="" /></div>
-                            <h4>Dani daniels</h4>
-                            <h5>Texas, USA</h5>
+                            <h4>Mamta Gupta</h4>
+                            <h5>Bikanervala Diamond Bar</h5>
                         </div>
-                        <div className="leader-content">“Lorem ipsu dolor sit amet, consectetur adipiscg elit,
-                            sed do eiusmod tempor incididunt ut labor et magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip excommodo minim veniam, quis nostrud exercitationconsequat.”</div>
+                        <div className="leader-content">“BNI was an incredible help when it came to setting up my restaurant. They handled the setup of the POS system, security systems, and provided continuous IT support.  They ensured our restaurant opening was a seamless, smooth process.”</div>
                     </div>
                 </div>
                 <div>
                     <div className="leader-slide">
                         <div className="leader-head">
                             <div className="leader-img"><img src="./images/testimonials-img-01.png" alt="" /></div>
-                            <h4>Dani daniels</h4>
-                            <h5>Texas, USA</h5>
+                            <h4>Mamta Gupta</h4>
+                            <h5>Bikanervala Diamond Bar</h5>
                         </div>
-                        <div className="leader-content">“1 Lorem ipsu dolor sit amet, consectetur adipiscg elit,
-                            sed do eiusmod tempor incididunt ut labor et magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip excommodo minim veniam, quis nostrud exercitationconsequat.”</div>
+                        <div className="leader-content">“BNI was an incredible help when it came to setting up my restaurant. They handled the setup of the POS system, security systems, and provided continuous IT support.  They ensured our restaurant opening was a seamless, smooth process.”</div>
                     </div>
                 </div>
                 <div>
                     <div className="leader-slide">
                         <div className="leader-head">
                             <div className="leader-img"><img src="./images/testimonials-img-01.png" alt="" /></div>
-                            <h4>Dani daniels</h4>
-                            <h5>Texas, USA</h5>
+                            <h4>Mamta Gupta</h4>
+                            <h5>Bikanervala Diamond Bar</h5>
                         </div>
-                        <div className="leader-content">“2 Lorem ipsu dolor sit amet, consectetur adipiscg elit,
-                            sed do eiusmod tempor incididunt ut labor et magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip excommodo minim veniam, quis nostrud exercitationconsequat.”</div>
+                        <div className="leader-content">“BNI was an incredible help when it came to setting up my restaurant. They handled the setup of the POS system, security systems, and provided continuous IT support.  They ensured our restaurant opening was a seamless, smooth process.”</div>
                     </div>
                 </div>
             </div>                                            

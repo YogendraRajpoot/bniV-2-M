@@ -61,32 +61,47 @@ export default function GoldenClientComponent() {
             <div className="clients-slider">
                 <div>
                     <div className="client-slide">
-                        <div className="client-logo"><img src="./images/client-logo-01.png" alt="" /></div>
+                        <div className="client-logo"><img src="./images/our-client-danaher.png" alt="" /></div>
                     </div>
                 </div>
                 <div>
                     <div className="client-slide">
-                        <div className="client-logo"><img src="./images/client-logo-02.png" alt="" /></div>
+                        <div className="client-logo"><img src="./images/our-client-cepheid.png" alt="" /></div>
                     </div>
                 </div>
                 <div>
                     <div className="client-slide">
-                        <div className="client-logo"><img src="./images/client-logo-03.png" alt="" /></div>
+                        <div className="client-logo"><img src="./images/our-client-pall-corporation.png" alt="" /></div>
                     </div>
                 </div>
                 <div>
                     <div className="client-slide">
-                        <div className="client-logo"><img src="./images/client-logo-04.png" alt="" /></div>
+                        <div className="client-logo"><img src="./images/our-client-pwc.png" alt="" /></div>
                     </div>
                 </div>
                 <div>
                     <div className="client-slide">
-                        <div className="client-logo"><img src="./images/client-04.png" alt="" /></div>
+                        <div className="client-logo"><img src="./images/our-client-hcl.png" alt="" /></div>
                     </div>
                 </div>
                 <div>
                     <div className="client-slide">
-                        <div className="client-logo"><img src="./images/client-05.png" alt="" /></div>
+                        <div className="client-logo"><img src="./images/our-client-tech-mahindra.png" alt="" /></div>
+                    </div>
+                </div>
+                <div>
+                    <div className="client-slide">
+                        <div className="client-logo"><img src="./images/our-client-perficient.png" alt="" /></div>
+                    </div>
+                </div>
+                <div>
+                    <div className="client-slide">
+                        <div className="client-logo"><img src="./images/our-client-rbc.png" alt="" /></div>
+                    </div>
+                </div>
+                <div>
+                    <div className="client-slide">
+                        <div className="client-logo"><img src="./images/our-client-nous-infosystems.png" alt="" /></div>
                     </div>
                 </div>
             </div>                                 

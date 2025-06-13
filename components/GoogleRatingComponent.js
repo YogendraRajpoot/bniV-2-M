@@ -62,9 +62,9 @@ export default function GoogleRatingComponent() {
                 <div className="google-rate">
                     <div className="icon-rate">
                         <div className="icon"><img src="./images/google-icon.png" alt="" /></div>
-                        <div className="rate">4.7</div>
+                        <div className="rate">4.9/5</div>
                     </div>
-                    <h5>Top rated on trustpilot</h5>
+                    <h5>Top rated on Google</h5>
                     <div className="rating"><i className="fa fa-star" aria-hidden="true"></i> <i className="fa fa-star" aria-hidden="true"></i> <i className="fa fa-star" aria-hidden="true"></i> <i className="fa fa-star" aria-hidden="true"></i> <i className="fa fa-star" aria-hidden="true"></i></div>
                 </div>
             </div>
@@ -73,11 +73,10 @@ export default function GoogleRatingComponent() {
                     <div className="reviews-slider">
                         <div>
                             <div className="review-slide">
-                                <div className="content">Lorem Ipsum is simply dummy text of the printing  and ed Lorem Ipsum text of the priand scrambled</div>
-                                <div className="bottom-area">
-                                    <div className="author-img"><img src="./images/review-img-01.png" alt="" /></div>
+                                <div className="content">Impressed with highly talented and qualified Professional working together as team and thriving towards business goals</div>
+                                <div className="bottom-area">                                    
                                     <div className="author-name">
-                                        <div className="name">Austin Cody</div>
+                                        <div className="name">Shivansh Rajwansh</div>
                                         <div className="rating"><i className="fa fa-star" aria-hidden="true"></i> <i className="fa fa-star" aria-hidden="true"></i> <i className="fa fa-star" aria-hidden="true"></i> <i className="fa fa-star" aria-hidden="true"></i> <i className="fa fa-star" aria-hidden="true"></i></div>
                                     </div>
                                 </div>
@@ -85,11 +84,10 @@ export default function GoogleRatingComponent() {
                         </div>
                         <div>
                             <div className="review-slide">
-                                <div className="content">1 Lorem Ipsum is simply dummy text of the printing  and ed Lorem Ipsum text of the priand scrambled</div>
-                                <div className="bottom-area">
-                                    <div className="author-img"><img src="./images/review-img-01.png" alt="" /></div>
+                                <div className="content">They deserve a five-star. I am impressed by their service and promptness to serve.</div>
+                                <div className="bottom-area">                                    
                                     <div className="author-name">
-                                        <div className="name">Austin Cody</div>
+                                        <div className="name">Rusty</div>
                                         <div className="rating"><i className="fa fa-star" aria-hidden="true"></i> <i className="fa fa-star" aria-hidden="true"></i> <i className="fa fa-star" aria-hidden="true"></i> <i className="fa fa-star" aria-hidden="true"></i> <i className="fa fa-star" aria-hidden="true"></i></div>
                                     </div>
                                 </div>
@@ -97,11 +95,10 @@ export default function GoogleRatingComponent() {
                         </div>
                         <div>
                             <div className="review-slide">
-                                <div className="content">2 Lorem Ipsum is simply dummy text of the printing  and ed Lorem Ipsum text of the priand scrambled</div>
+                                <div className="content">Business needs is a place where all needs of our business get fulfilled.</div>
                                 <div className="bottom-area">
-                                    <div className="author-img"><img src="./images/review-img-01.png" alt="" /></div>
                                     <div className="author-name">
-                                        <div className="name">Austin Cody</div>
+                                        <div className="name">Anupam Shukla</div>
                                         <div className="rating"><i className="fa fa-star" aria-hidden="true"></i> <i className="fa fa-star" aria-hidden="true"></i> <i className="fa fa-star" aria-hidden="true"></i> <i className="fa fa-star" aria-hidden="true"></i> <i className="fa fa-star" aria-hidden="true"></i></div>
                                     </div>
                                 </div>
@@ -109,11 +106,10 @@ export default function GoogleRatingComponent() {
                         </div>
                         <div>
                             <div className="review-slide">
-                                <div className="content">3 Lorem Ipsum is simply dummy text of the printing  and ed Lorem Ipsum text of the priand scrambled</div>
+                                <div className="content">Excellent Company and Good environment to work and grow</div>
                                 <div className="bottom-area">
-                                    <div className="author-img"><img src="./images/review-img-01.png" alt="" /></div>
                                     <div className="author-name">
-                                        <div className="name">Austin Cody</div>
+                                        <div className="name">Himanshu Singh</div>
                                         <div className="rating"><i className="fa fa-star" aria-hidden="true"></i> <i className="fa fa-star" aria-hidden="true"></i> <i className="fa fa-star" aria-hidden="true"></i> <i className="fa fa-star" aria-hidden="true"></i> <i className="fa fa-star" aria-hidden="true"></i></div>
                                     </div>
                                 </div>

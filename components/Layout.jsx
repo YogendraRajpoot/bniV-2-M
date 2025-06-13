@@ -17,19 +17,22 @@ export default function Layout({ children }){
                         <div className="col-12 col-sm-6 col-md-6">
                             <div className="social-media-icons">
                                 <ul>
-                                    <li><a href="/"><i className="bi bi-twitter-x"></i></a></li>
-                                    <li><a href="/"><i className="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                    <li><a href="/"><i className="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                                    <li><a href="/"><i className="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                                    <li><a href="/"><i className="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://x.com/BusinessNeeds_" target="_blank"><i className="bi bi-twitter-x"></i></a></li>                                   
+                                    <li><a href="https://www.linkedin.com/company/business-needs-inc" target="_blank"><i className="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://www.youtube.com/watch?v=sI1dTHf3Nq0" target="_blank"><i className="fa fa-youtube-play" aria-hidden="true"></i></a></li>
                                 </ul>
                             </div>
                         </div>
                         <div className="col-12 col-sm-6 col-md-6">
                             <div className="right-area">
                                 <ul>
-                                    <li><a href="/">Let's Talk</a></li>
-                                    <li><a href="/"><i className="fa fa-search" aria-hidden="true"></i></a></li>
+                                    <li><Link href="/contact-us">Let's Talk</Link></li>
+                                    {
+                                        /*
+                                        <li><a href="/"><i className="fa fa-search" aria-hidden="true"></i></a></li>
+                                        */
+                                    }
+                                    
                                 </ul>
                             </div>
                         </div>

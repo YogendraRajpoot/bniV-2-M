@@ -1,13 +1,14 @@
 import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
+import HelpWrapperComponent from '../components/HelpWrapperComponent';
 
 export default function TalentSolution(){   
     
     return(
         <>
         <Head>
-            <title>Business Needs Inc</title>
+            <title>Business Needs Inc: Application/Program Development</title>
             <meta name="keywords" content="Business Needs Inc" />
             <meta name="description" content="Business Needs Inc" />
         </Head>        
@@ -34,23 +35,21 @@ export default function TalentSolution(){
                         <div className="col-12 col-md-4 col-lg-3 order-1 order-lg-2">                        
                             <ul className="nav flex-column">
                                 <li className="nav-item">
-                                <a className="nav-link active" data-bs-toggle="tab" href="#what-we-do">What we do?</a>
+                                <a className="nav-link active" data-bs-toggle="tab" href="#what-we-do">What we do</a>
                                 </li>
                                 <li className="nav-item">
                                 <a className="nav-link" data-bs-toggle="tab" href="#our-core-services">Our Core Services</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" data-bs-toggle="tab" href="#our-strategy">Our Strategy</a>
-                                </li>                               
+                                </li>                                                            
                             </ul>
                         </div>
                         <div className="col-12 col-md-8 col-lg-9 order-2 order-lg-1">                           
                             <div className="tab-content">
                                 <div className="active" id="what-we-do">
                                     <div className="why-bin-content">
-                                        <h5 className="section-title-v1">WHAT WE DO?</h5>
-                                        <h1 className="section-title">End-to-End Talent Solutions: Connecting You with Top Talent for Sustainable Growth and High-Performance Teams Across Industries</h1>
-                                        <p>At BNI, we provide comprehensive talent solutions that help you find, hire, and nurture the best professionals. From talent sourcing to onboarding and workforce optimization, our services are designed to align with your company’s specific needs, ensuring you build a team that drives success and innovation.</p>
+                                        <h5 className="section-title-v1">WHAT WE DO</h5>
+                                        <h1 className="section-title">Expand Your Team, Optimize Costs, and Maximize Productivity with Offshore Resourcing</h1>
+                                        <p>Business Needs Inc. specializes in offshore development and resourcing services, helping companies optimize costs and scale their onshore teams for maximum productivity. By leveraging a global talent pool, we provide skilled professionals across various technologies, ensuring businesses can expand efficiently, reduce operational expenses, and accelerate growth without compromising quality.</p>
+                                        <p>Whether you need dedicated development teams, scalable IT resourcing, or specialized expertise, our offshore model empowers your business to innovate, expand, and thrive in a competitive market.</p>
                                     </div>
                                 </div>
                             </div>
@@ -59,90 +58,65 @@ export default function TalentSolution(){
                 </div>
             </section>
 
-            <section className="our-core-services gray-bg" id="our-core-services">
-                <div className="container">
-                    <h1 className="section-title wow fadeInUp">Executive Recruitment Services</h1>
-
-                    <section className="our-mission-vision-core-wrapper gray-bg">
-                        <section className="our-mission-wrapper our-vision-wrapper">
-                            <div className="container">
-                                <div className="our-mission">
-                                    <div className="row align-items-center">
-                                        <div className="col-12 col-lg-4 col-xl-5 order-1 order-lg-2 order-xl-2">
-                                            <div className="mission-img wow fadeInRight"><img src="./images/case-study.png" alt="" /></div>
-                                        </div>
-                                        <div className="col-12 col-lg-8 col-xl-7 order-2 order-lg-1 order-xl-1">
-                                            <div className="mission-content wow fadeInUp">
-                                                <h5 className="section-title-v1">Offshore Development Center</h5>                                        
-                                                <p>Our offshore development center functions as a branch of your team. We establish a hub tailored to your project requirements and goals. We handle the setup of your talent onboarding and project management so that you can focus on innovation and growth. We provide reduced costs, faster deadlines, and full control over your team.</p>
-                                            </div>
-                                        </div>
+            
+            <section className="our-mission-vision-core-wrapper gray-bg" id="our-core-services">
+                <section className="our-mission-wrapper our-vision-wrapper" id="offshore-development-center">
+                    <div className="container">
+                        <div className="our-mission">
+                            <div className="row align-items-center">
+                                <div className="col-12 col-lg-4 col-xl-5 order-1 order-lg-2 order-xl-2">
+                                    <div className="mission-img wow fadeInRight"><img src="./images/offshore-development.png" alt="" /></div>
+                                </div>
+                                <div className="col-12 col-lg-8 col-xl-7 order-2 order-lg-1 order-xl-1">
+                                    <div className="mission-content wow fadeInUp">
+                                        <h1 class="section-title">Our Core Services</h1>
+                                        <h5 className="section-title-v1">Offshore Development Center (ODC)</h5>                                        
+                                        <p>Expand your team globally with our strategic offshore development solutions, designed to optimize costs, enhance productivity, and accelerate innovation without compromising quality. Our reliable and scalable offshore model connects you with top-tier talent specializing in a wide range of technologies, enabling you to expand operations efficiently while reducing costs by up to 60–80%.</p>
+                                        <p>Why Choose Our Offshore Development Center?</p>
+                                        <ul>
+                                            <li>· <b>Access to Global Talent:</b> Highly skilled engineers, developers, and consultants across diverse tech domains </li>
+                                            <li>· <b>Cost Optimization:</b> Significant savings on operational expenses while maintaining high-quality delivery </li>
+                                            <li>· <b>Scalable & Flexible Teams:</b> Agile resource allocation that aligns with project needs and growth strategies </li>
+                                            <li>· <b>Seamless Collaboration:</b> Offshore teams working in your time zone, fully integrating with your internal workflows </li>
+                                            <li>· <b>Agile Development & DevOps Integration:</b> CI/CD pipelines, iterative development cycles, and continuous improvement </li>
+                                        </ul>
+                                        <p>With proven methodologies, industry-leading expertise, and seamless offshore integration, we ensure efficiency, security, and collaboration, helping your business scale smarter, innovate faster, and stay ahead in a competitive landscape.</p>
                                     </div>
                                 </div>
                             </div>
-                        </section>
-
-                        <section className="our-mission-wrapper">
-                            <div className="container">
-                                <div className="our-mission">
-                                    <div className="row align-items-center">
-                                        <div className="col-12 col-md-4 col-lg-5">
-                                            <div className="mission-img wow fadeInLeft"><img src="./images/case-study.png" alt="" /></div>
-                                        </div>
-                                        <div className="col-12 col-md-8 col-lg-7">
-                                            <div className="mission-content wow fadeInUp">
-                                                <h5 className="section-title-v1">Dedicated Team</h5>                                    
-                                                <p>Our dedicated team is comprised of experienced professionals who work together exclusively on your project. This model offers greater collaboration, stability, and alignment with your company goals. You manage the project, and we take administrative tasks off your plate so that you can focus on your bigger vision.</p>
-                                            </div>
-                                        </div>
+                        </div>
+                    </div>
+                </section>
+                <section className="our-mission-wrapper" id="dedicated-team">
+                    <div className="container">
+                        <div className="our-mission">
+                            <div className="row align-items-center">
+                                <div className="col-12 col-md-4 col-lg-5">
+                                    <div className="mission-img wow fadeInLeft"><img src="./images/dedicated-team.jpg" alt="" /></div>
+                                </div>
+                                <div className="col-12 col-md-8 col-lg-7">
+                                    <div className="mission-content wow fadeInUp">
+                                        <h5 className="section-title-v1">Dedicated Team</h5>                                    
+                                        <p>Our dedicated offshore team consists of highly skilled professionals who work exclusively on your project, ensuring seamless collaboration, stability, and full alignment with your business goals. This model provides long-term consistency and deep integration with your internal processes, allowing your offshore team to function as an extension of your in-house staff.</p>
+                                        <p>Why Choose a Dedicated Offshore Team?</p>
+                                        <ul>
+                                            <li>· <b>Exclusive Team Allocation:</b> Engineers, developers, and consultants solely focused on your project</li>
+                                            <li>· <b>Scalability & Flexibility:</b> Adjust team size and skill sets based on evolving business needs</li>
+                                            <li>· <b>Agile & Collaborative Approach:</b> Continuous engagement, daily stand-ups, and sprint-based development</li>
+                                            <li>· <b>Seamless Integration:</b> Working in your time zone with synchronized workflows and communication</li>
+                                            <li>· <b>Reduced Operational Overhead:</b> We handle HR, administration, infrastructure, and compliance, freeing you to focus on strategy</li>
+                                        </ul>
+                                        <p>By choosing our dedicated offshore model, you gain cost efficiency, streamlined management, and superior expertise, ensuring high-quality execution without the complexities of offshore coordination</p>
                                     </div>
                                 </div>
                             </div>
-                        </section>                        
-                   
-                   </section>  
-                    
-                </div>
-            </section>            
-
-            <section className="talent-staffing-wrapper" id="our-strategy">
-                <div className="container">
-                    <h1 className="section-title wow fadeInUp">Talent Staffing Delivery Models</h1>
-                    <div className="talent-staffing">
-                        <div className="talent-box wow fadeInUp">
-                            <div className="talent-head">
-                                <div className="icon"><i className="fa fa-user-o" aria-hidden="true"></i></div>
-                                <h4>Payroll Services</h4>
-                            </div>
-                            <div className="talent-content">Direct Hire staffing involves recruiting and placing full-time employees directly with your company. Our team works closely with you to understand your specific hiring needs and company culture, sourcing highly qualified candidates who are the right fit for your organization. Once hired, the candidate becomes a permanent member of your team, and we offer a guarantee on the placement to ensure a successful integration into your workforce.</div>
-                        </div>
-                        <div className="talent-box wow fadeInUp" data-wow-delay="0.2s">
-                            <div className="talent-head">
-                                <div className="icon"><i className="fa fa-user-o" aria-hidden="true"></i></div>
-                                <h4>Contract/Temporary Staffing</h4>
-                            </div>
-                            <div className="talent-content">Contract or Temporary Staffing is designed for companies that need skilled professionals for short-term projects or to cover temporary gaps, such as seasonal demands or employee leave. In this model, we provide you with qualified workers who are employed by our staffing agency for a defined period. You get the flexibility to meet your immediate staffing needs while we handle the recruitment, onboarding, and HR responsibilities.</div>
-                        </div>
-                        <div className="talent-box wow fadeInUp" data-wow-delay="0.4s">
-                            <div className="talent-head">
-                                <div className="icon"><i className="fa fa-user-o" aria-hidden="true"></i></div>
-                                <h4>Contract-to-Hire/ Temp-to-Perm</h4>
-                            </div>
-                            <div className="talent-content">Contract-to-Hire (or Temp-to-Perm) allows companies to evaluate a candidate's performance and fit within the organization before committing to a permanent hire. We place candidates in temporary roles, giving you the flexibility to assess their skills and work ethic over a set period. If the candidate is a good match, you have the option to convert them into a full-time employee, making this a great solution for minimizing hiring risks while ensuring a long-term fit.</div>
                         </div>
                     </div>
-                </div>
-            </section>            
+                </section>   
+            </section>      
+                      
 
-            <section className="can-help-wrapper">
-                <div className="container">
-                    <div className="can-help wow fadeInUp">
-                        <h1 className="section-title">What can we help you achieve?
-                        <span className="text-yellow">See how we can help.</span></h1>
-                        <div className="white-btn"><a href="/">Work With Us</a></div>
-                    </div>
-                </div>
-            </section>
+            <HelpWrapperComponent />
 
         </div>        
 

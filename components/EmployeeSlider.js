@@ -61,44 +61,51 @@ export default function EmployeeSlider() {
             <div className="empolyee-slider">
                 <div>
                     <div className="empolyee-slide">
-                        <div className="slide-no">01 / 03</div>
+                        {
+                            /*
+                            <div className="slide-no">01 / 03</div>
+                            */
+                        }
+                        
                         <div className="row">
                             <div className="col-12 col-lg-7">
                                 <div className="empolyee-content">
-                                    <h5 className="section-title-v1">Meet Our Team</h5>
-                                    <h1 className="section-title">Here are a few thoughts shared by our <span className="text-blue">Employee</span></h1>
-                                    <div className="empolyee-content">Lorem ipsu dolor sit amet, consectetur adipiscg elit, sed do eiusmod tempor incididunt ut labor et magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip excommodo minim veniam, quis nostrud exercitationconsequat exercitation ullamco laboris nisi ut exercitation ullamco laboris nisi ut</div>
+                                    <h5 className="section-title-v1">Meet the Team</h5>
+                                    <h1 className="section-title">We take pride in celebrating our team—powered by talent, passion, and unwavering dedication.</h1>
+                                    <div className="empolyee-content">Meet our HR Director, Siddhi Gupta. Siddhi is passionate about community involvement and people leadership. She takes a personalized approach with her team and her work, ensuring authenticity and social responsibility with every project. In her free time, she keeps busy with lots of travel and reading and likes to relax by watching a good movie. As an indispensable member of Team BNI, she brings her positivity and empathy to every corner of the organization.</div>
                                 </div>
                             </div>
                             <div className="col-12 col-lg-5">
                                 <div className="empolyee-right">
-                                    <div className="empolyee-img"><img src="./images/employee-mohit-kumar.png" alt="" /></div>
+                                    <div className="empolyee-img"><img src="./images/team-02.png" alt="" /></div>
                                     <div className="employee-designation">
-                                        <h2>Mohit Kumar</h2>
-                                        <h3>Software Engineers</h3>
+                                        <h2>Siddhi Gupta</h2>
+                                        <h3>HR Director</h3>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                {
+                /*
                 <div>
                     <div className="empolyee-slide">
                         <div className="slide-no">02 / 03</div>
                         <div className="row">
                             <div className="col-12 col-lg-7">
                                 <div className="empolyee-content">
-                                    <h5 className="section-title-v1">EMPLOYEE OF THE MONTH</h5>
+                                    <h5 className="section-title-v1">Meet the Team</h5>
                                     <h1 className="section-title">Here are a few thoughts shared by our <span className="text-blue">Employee</span></h1>
-                                    <div className="empolyee-content">Lorem ipsu dolor sit amet, consectetur adipiscg elit, sed do eiusmod tempor incididunt ut labor et magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip excommodo minim veniam, quis nostrud exercitationconsequat exercitation ullamco laboris nisi ut exercitation ullamco laboris nisi ut</div>
+                                    <div className="empolyee-content">Meet our PR Director, Siddhi Gupta. Siddhi is passionate about community involvement and people leadership. She takes a personalized approach with her team and her work, ensuring authenticity and social responsibility with every project. In her free time, she keeps busy with lots of travel and reading and likes to relax by watching a good movie. As an indispensable member of Team BNI, she brings her positivity and empathy to every corner of the organization.</div>
                                 </div>
                             </div>
                             <div className="col-12 col-lg-5">
                                 <div className="empolyee-right">
-                                    <div className="empolyee-img"><img src="./images/employee-mohit-kumar.png" alt="" /></div>
+                                    <div className="empolyee-img"><img src="./images/team-02.png" alt="" /></div>
                                     <div className="employee-designation">
-                                        <h2>Mohit Kumar</h2>
-                                        <h3>Software Engineers</h3>
+                                        <h2>Siddhi Gupta</h2>
+                                        <h3>PR Director</h3>
                                     </div>
                                 </div>
                             </div>
@@ -111,23 +118,25 @@ export default function EmployeeSlider() {
                         <div className="row">
                             <div className="col-12 col-lg-7">
                                 <div className="empolyee-content">
-                                    <h5 className="section-title-v1">EMPLOYEE OF THE MONTH</h5>
+                                    <h5 className="section-title-v1">Meet the Team</h5>
                                     <h1 className="section-title">Here are a few thoughts shared by our <span className="text-blue">Employee</span></h1>
-                                    <div className="empolyee-content">Lorem ipsu dolor sit amet, consectetur adipiscg elit, sed do eiusmod tempor incididunt ut labor et magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip excommodo minim veniam, quis nostrud exercitationconsequat exercitation ullamco laboris nisi ut exercitation ullamco laboris nisi ut</div>
+                                    <div className="empolyee-content">Meet our PR Director, Siddhi Gupta. Siddhi is passionate about community involvement and people leadership. She takes a personalized approach with her team and her work, ensuring authenticity and social responsibility with every project. In her free time, she keeps busy with lots of travel and reading and likes to relax by watching a good movie. As an indispensable member of Team BNI, she brings her positivity and empathy to every corner of the organization.</div>
                                 </div>
                             </div>
                             <div className="col-12 col-lg-5">
                                 <div className="empolyee-right">
-                                    <div className="empolyee-img"><img src="./images/employee-mohit-kumar.png" alt="" /></div>
+                                    <div className="empolyee-img"><img src="./images/team-02.png" alt="" /></div>
                                     <div className="employee-designation">
-                                        <h2>Mohit Kumar</h2>
-                                        <h3>Software Engineers</h3>
+                                        <h2>Siddhi Gupta</h2>
+                                        <h3>PR Director</h3>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>                
+                */
+                }                
             </div>                   
   );
 }

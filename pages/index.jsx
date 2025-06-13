@@ -4,15 +4,18 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useState, useEffect} from "react";
-import dynamic from "next/dynamic";
-const SliderComponent = dynamic(() => import('@/components/SliderComponent'), { ssr: false });
+import HelpWrapperComponent from '../components/HelpWrapperComponent';
 
+import dynamic from "next/dynamic";
+
+const SliderComponent = dynamic(() => import('@/components/SliderComponent'), { ssr: false });
 const EmployeeSlider = dynamic(() => import('@/components/EmployeeSlider'), {  ssr: false});
 
 const GoldenClientComponent = dynamic(() => import('@/components/GoldenClientComponent'), {  ssr: false});
 const IndustryLeaderComponent = dynamic(() => import('@/components/IndustryLeaderComponent'), {  ssr: false});
 const GoogleRatingComponent = dynamic(() => import('@/components/GoogleRatingComponent'), {  ssr: false});
 const CaseStudySliderComponent = dynamic(() => import('@/components/CaseStudySliderComponent'), {  ssr: false});
+
 
 export default function Home(){
   const router = useRouter();   
@@ -37,28 +40,28 @@ export default function Home(){
                   <div className="reimagine-business" id="counter">
                       <h1 className="wow fadeInUp section-title">We Can Help You <span className="text-blue">Reimagine</span> Your Business</h1>
                       <div className="section-top-content wow fadeInUp">
-                          <p>Let the numbers speak for themselves.</p>
+                          <p>Our strategic approach ensures businesses have the right technology and talent to scale, innovate, and achieve their goals with efficiency and impact.</p>
                       </div>
                       <div id="counter">
-                          <div className="row">
-                              <div className="col-12 col-lg-4">
-                                  <div className="business-box">
-                                      <h2><span className="count percent" data-count="35">35</span>+</h2>
-                                      <div className="content">Industries Mastered</div>
-                                  </div>
-                              </div>
-                              <div className="col-12 col-lg-4 custom-border">
-                                  <div className="business-box">
-                                      <h2><span className="count percent" data-count="3000">3000</span>+</h2>
-                                      <div className="content">Solutions Designed and Delivered</div>
-                                  </div>
-                              </div>
-                              <div className="col-12 col-lg-4 custom-border">
-                                  <div className="business-box">
-                                      <h2><span className="count percent" data-count="450">450</span>+</h2>
-                                      <div className="content">Legacy Processes Transformed</div>
-                                  </div>
-                              </div>
+                            <div className="row">
+                                <div className="col-12 col-lg-4">
+                                <div className="business-box">
+                                    <h3><span className="count percent" data-count="20+">20+ years of experience in IT consulting and talent solutions</span></h3>
+                                </div>
+                            </div>
+                            <div className="col-12 col-lg-4 custom-border">
+                                <div className="business-box">
+                                    <h3><span className="count percent" data-count="clients">Clients from startups to Fortune 500 companies</span></h3>
+                                    <div className="content"></div>
+                                </div>
+                            </div>
+                            <div className="col-12 col-lg-4 custom-border">
+                                <div className="business-box">
+                                    <h3><span className="count percent" data-count="35+">35+ Industries mastered</span></h3>
+                                    <div className="content"></div>
+                                </div>
+                            </div>                             
+                                                 
                           </div>
                       </div>
                   </div>
@@ -71,24 +74,12 @@ export default function Home(){
                     <div className="row">
                         <div className="col-12 col-lg-7">
                             <div className="about-content wow fadeInUp">
-                                <h5 className="section-title-v1">Who We Are</h5>                                                            
+                                <h5 className="section-title-v1">Who We Are</h5>   
+                                <h1 className="section-title">Reliable Technology support & <span className="text-blue">Solutions</span></h1>                                                         
                                 <div className="content">
-                                <p>We are a dynamic IT consulting and staffing firm committed to bridging the gap between exceptional tech talent and innovative companies. With deep industry expertise and a client-first approach, we specialize in delivering scalable workforce solutions—from contract staffing to full-time recruitment and offshore development, we also specialize in IT project consulting through Statements of Work (SOW), providing end-to-end execution and accountability for time-bound technical initiatives. Our mission is to empower businesses by providing them with the right people, strategies, and technologies to drive success in a fast-evolving digital world.</p>
-                                </div>
-                                <h5 className="section-title-v1">What We Do</h5>                                                            
-                                <div className="content">
-                                <ul>
-                                  <li>Contract & Contract-to-Hire Staffing</li>
-                                  <li>Full-Time (Direct Hire) Recruiting</li>
-                                  <li>Project-Based Hiring Solutions</li>
-                                  <li>Offshore Development Resources</li>
-                                  <li>IT Project Consulting (SOW-Based)</li>
-                                  <li>Mobile App Development</li>
-                                  <li>Web Development</li>
-                                  <li>Software Testing Services</li>
-                                </ul>
-                                </div>
-                                <div className="blue-btn"><a href="/">Know More About Us</a></div>
+                                    <p>At Business Needs Inc., we specialize in IT consulting and talent solutions, serving as a trusted partner in driving growth and innovation. Since 2004, we’ve empowered businesses across diverse industries with cutting-edge, customized technology solutions that tackle today’s unique challenges—from the rapid evolution of AI to the ever-expanding demands of the digital age. With a commitment to excellence, we help organizations stay ahead in an increasingly tech-driven world.</p>
+                                </div>                                
+                                <div className="blue-btn"><Link href="/about-us">Learn More</Link></div>
                             </div>
                         </div>
                         <div className="col-12 col-lg-5 align-self-end">
@@ -105,41 +96,39 @@ export default function Home(){
                     <div className="col-12 col-lg-8">
                         <h1 className="wow fadeInUp section-title">Transforming Businesses</h1>
                         <div className="section-top-content wow fadeInUp">
-                            <p>We offer a wide range of digital solutions and best-in-class platforms to deliver
-                                meaningful outcomes</p>
+                            <p>We deliver agile IT consulting and talent solutions, offering expertise in staff augmentation, application development, and project-based execution.</p>
                         </div>
                     </div>
                     <div className="col-12 col-lg-4">
-                        <div className="blue-btn top-category-right wow fadeInUp"><a href="/">Book a Service</a></div>
+                        <div className="blue-btn top-category-right wow fadeInUp"><Link href="/contact-us">Let’s Talk</Link></div>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-12 col-lg-4">
                         <div className="top-category wow fadeInUp">
                             <div className="content">
-                                <h2>Talent Solution</h2>
-                                <div className="read-more"><a href="/"><span className="text">Read More</span> <i className="bi bi-arrow-right"></i></a></div>
+                                <h2>Talent Solutions</h2>
+                                <div className="read-more"><Link href="/talent-solution"><span className="text">Read More</span> <i className="bi bi-arrow-right"></i></Link></div>
                             </div>
-                            <div className="img"><img src="./images/talent-solution.png" alt="" /></div>
+                            <div className="img"><img src="./images/talent-solution.png" alt="Talent Solutions" /></div>
                         </div>
                     </div>
                     <div className="col-12 col-lg-4">
                         <div className="top-category wow fadeInUp" data-wow-delay="0.2s">
                             <div className="content">
                                 <h2>IT Consulting Services</h2>
-                                <div className="read-more"><a href="/"><span className="text">Read More</span> <i className="bi bi-arrow-right"></i></a></div>
+                                <div className="read-more"><Link href="/it-consulting-services"><span className="text">Read More</span> <i className="bi bi-arrow-right"></i></Link></div>
                             </div>
-                            <div className="img"><img src="./images/talent-it-consulting-services.png" alt="" /></div>
+                            <div className="img"><img src="./images/talent-it-consulting-services.png" alt="IT Consulting Services" /></div>
                         </div>
                     </div>
                     <div className="col-12 col-lg-4">
                         <div className="top-category wow fadeInUp" data-wow-delay="0.4s">
                             <div className="content">
-                                <h2>Offshore
-                                    <br/>Development Services</h2>
-                                <div className="read-more"><a href="/"><span className="text">Read More</span> <i className="bi bi-arrow-right"></i></a></div>
+                                <h2>Offshore Development Center</h2>
+                                <div className="read-more"><Link href="/offshore-development-services"><span className="text">Read More</span> <i className="bi bi-arrow-right"></i></Link></div>
                             </div>
-                            <div className="img"><img src="./images/offshore-development-services.png" alt="" /></div>
+                            <div className="img"><img src="./images/offshore-development-services.png" alt="Offshore Development Center" /></div>
                         </div>
                     </div>
                 </div>
@@ -152,11 +141,11 @@ export default function Home(){
                     <div className="col-12 col-lg-8">
                         <div className="section-top-content wow fadeInUp ">
                             <h1 className="section-title">Our Product Portfolio</h1>
-                            <p>We offer a wide range of Product and solutions and best-in-class platforms to deliver meaningful outcomes</p>
+                            <p>Our range of innovative applications ensures optimal user experience, efficiency, and seamless functionality across diverse business needs.</p>
                         </div>
                     </div>
                     <div className="col-12 col-lg-4">
-                        <div className="blue-btn recent-news-right wow fadeInUp"><a href="/">Enquiry Now</a></div>
+                        <div className="blue-btn recent-news-right wow fadeInUp"><Link href="/contact-us">Inquire Now</Link></div>
                     </div>
                 </div>
                 <div className="row">
@@ -164,9 +153,9 @@ export default function Home(){
                         <div className="our-product-box wow fadeInUp">
                             <div className="product-img"><img src="./images/our-product-01.png" alt="" /></div>
                             <div className="product-content">
-                                <h2>Onpoint Solutions</h2>
-                                <div className="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
-                                <div className="black-outline-btn"><a href="/">Read More</a></div>
+                                <h2>Onpoint Solution</h2>
+                                <div className="description">OnPoint's Smart Mobility Platform enables users to optimize fleet safety and efficiency through a rich array of real time data and tools that enables objective and data driven decisions.</div>
+                                <div className="black-outline-btn"><Link href="/our-product-portfolio#onpoint-solution">Read More</Link></div>
                             </div>
                         </div>
                     </div>
@@ -175,18 +164,18 @@ export default function Home(){
                             <div className="product-img"><img src="./images/our-product-02.png" alt="" /></div>
                             <div className="product-content">
                                 <h2>Onpoint Scheduling</h2>
-                                <div className="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
-                                <div className="black-outline-btn"><a href="/">Read More</a></div>
+                                <div className="description">A digital tool designed to help users organize and manage their time effectively. The app allow individuals or teams to plan appointments, meetings, tasks, and events with ease.</div>
+                                <div className="black-outline-btn"><Link href="/our-product-portfolio#onpoint-scheduling">Read More</Link></div>
                             </div>
                         </div>
                     </div>
                     <div className="col-12 col-lg-4">
                         <div className="our-product-box wow fadeInUp" data-wow-delay="0.4s">
-                            <div className="product-img"><img src="./images/our-product-03.png" alt="" /></div>
+                            <div className="product-img"><img src="./images/restaurant-app.png" alt="" /></div>
                             <div className="product-content">
-                                <h2>Onpoint Health Care</h2>
-                                <div className="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
-                                <div className="black-outline-btn"><a href="/">Read More</a></div>
+                                <h2>Restaurant App​</h2>
+                                <div className="description">A mobile application designed to enhance the dining experience by offering users convenient access to a restaurant’s services and features.</div>
+                                <div className="black-outline-btn"><Link href="/our-product-portfolio#onpoint-health-care">Read More</Link></div>
                             </div>
                         </div>
                     </div>
@@ -201,26 +190,27 @@ export default function Home(){
                     <div className="row">
                         <div className="col-12 col-lg-6">
                             <div className="choose-content">
-                                <h1 className="section-title wow fadeInUp">Why Choose <span className="text-blue">Us?</span></h1>
+                                <h1 className="section-title wow fadeInUp">Why Choose <span className="text-blue">BNI?</span></h1>
                                 <ul className="custom-list">
                                     <li className="wow fadeInUp">
+                                        <h2>Elite Tech Talent</h2>
                                         <p>500+ pre-vetted professionals across software development, data engineering, cloud, DevOps, and more.</p>
                                     </li>
                                     <li className="wow fadeInUp" data-wow-delay="0.2s">
-                                        <h2>The Right Team</h2>
-                                        <p>Expertise in IT project consulting, mobile and web development, and quality assurance.</p>
+                                        <h2>End-to-End IT Excellence</h2>
+                                        <p>Expertise in IT project consulting, mobile and web development, and quality assurance—leveraging next-gen technologies.</p>
                                     </li>
                                     <li className="wow fadeInUp" data-wow-delay="0.4s">
                                         <h2>Fast Timelines</h2>
-                                        <p>Fast onboarding – from requirement to joining in as little as one week.</p>
+                                        <p>Ensuring rapid transition from requirement to onboarding, aligned with client needs.</p>
                                     </li>
                                     <li className="wow fadeInUp" data-wow-delay="0.6s">
                                         <h2>Versatility</h2>
-                                        <p>Flexible engagement models tailored to your business needs.</p>
+                                        <p>Adaptive engagement models designed to seamlessly align with your evolving business needs, ensuring flexibility and efficiency.</p>
                                     </li>
                                     <li className="wow fadeInUp" data-wow-delay="0.6s">
                                         <h2>Optimal Support</h2>
-                                        <p>U.S.-based support team with global reach.</p>
+                                        <p>A globally distributed support team, ensuring smooth assistance across time zones and regions to meet your business needs.</p>
                                     </li>
                                 </ul>
                             </div>
@@ -233,95 +223,46 @@ export default function Home(){
             </div>
         </section>
 
-        <section className="case-study-wrapper">
-            <div className="container">
-              <CaseStudySliderComponent />                
-            </div>
-        </section>
         
-
-        <section className="makes-responsible-wrapper">
-            <div className="container">
-                <div className="row">
-                    <div className="col-12 col-lg-4">
-                        <div className="makes-us wow fadeInUp">
-                            <h1 className="section-title">We Take Responsibility Seriously:</h1>
-                            <div className="section-top-content">We are committed to being responsible from sustainability, diversity, to making social impact.</div>
-                            <div className="makes-logo">
-                                <div className="logo nmsdc"><a href="/"><img src="./images/nmsdc-img.png" alt="" /></a></div>
-                                <div className="logo scmsdc"><a href="/"><img src="./images/scm-logo.png" alt="" /></a></div>
-                            </div>
-                            <div className="white-btn"><a href="/">Know More About Us</a></div>
-                        </div>
-                    </div>
-                    <div className="col-12 col-lg-4">
-                        <div className="responsibility wow fadeInUp" data-wow-delay="0.2s">
-                            <h4>#responsibility</h4>
-                            <div className="logo"><a href="/"><img src="./images/mbe-certified.png" alt="" /></a></div>
-                            <h3>Proudly MBE-Certified</h3>
-                            <p>As a certified Minority Business Enterprise (MBE), we’re proud to contribute to supplier diversity initiatives across the U.S. Our certification reflects our commitment to inclusion and helps our clients meet diversity goals while gaining access to exceptional IT talent.</p>
-                        </div>
-                    </div>
-                    <div className="col-12 col-lg-4">
-                        <div className="responsibility giving-back wow fadeInUp" data-wow-delay="0.4s">
-                            <h4>#GivingBack</h4>
-                            <div className="logos">
-                                <a href="/"><img src="./images/alka-1.png" alt="" /></a>
-                                <a href="/"><img src="./images/alka-2.png" alt="" /></a>
-                                <a href="/"><img src="./images/alka-3.png" alt="" /></a>
-                                <a href="/"><img src="./images/alka-4.png" alt="" /></a>
-                            </div>
-                            <h3>ALKA: Aware. Learn. Know. Apply.</h3>
-                            <p>At ALKA, our mission is to make quality education accessible to every child, in every corner of the world. We believe that with the right education and guidance, every individual has the power to succeed. That’s why we are committed to expanding educational opportunities and resources to those who need them most.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <section className="recent-news-wrapper">
             <div className="container">
                 <div className="row align-items-end">
                     <div className="col-12 col-lg-8">
-                        <h5 className="section-title-v1 wow fadeInUp">News and Insights</h5>
-                        <h1 className="wow fadeInUp section-title">News and Articles from <span className="text-blue">BNI</span></h1>
+                        <h5 className="section-title-v1 wow fadeInUp">INSIGHTS</h5>
+                        <h1 className="wow fadeInUp section-title">News, Events & Industry trends</h1>
                     </div>
                     <div className="col-12 col-lg-4">
-                        <div className="blue-btn recent-news-right wow fadeInUp"><a href="/">View All News and Blog</a></div>
+                        <div className="blue-btn recent-news-right wow fadeInUp"><Link href="/insights">View all Insights</Link></div>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-12 col-lg-4">
                         <div className="our-platforms-box wow fadeInUp">
-                            <div className="blog-img"><img src="./images/news-img-01.png" alt="" /></div>
-                            <div className="blog-content">
-                                <h6>Listening is The Communication</h6>
-                                <h2>Effective Process or
-                                    Efficiency Killer</h2>
-                                <div className="description">Lorem Ipsum is simply dummy text of the printing and typetry. Lorem Ipsum has been the industry's standard dummy.</div>
-                                <div className="black-outline-btn"><a href="/">Read More</a></div>
+                            <div className="blog-img"><img src="./images/Listening.jpg" alt="" /></div>
+                            <div className="blog-content">                               
+                                <h2>Listening Is The Communication</h2>
+                                <div className="description">Are You Listening? The question Are You Listening? is mostly not understood and people reply with a big YES or by nodding their head.</div>
+                                <div className="black-outline-btn"><Link href="/listening-is-the-communication">Read More</Link></div>
                             </div>
                         </div>
                     </div>
                     <div className="col-12 col-lg-4">
                         <div className="our-platforms-box wow fadeInUp" data-wow-delay="0.2s">
-                            <div className="blog-img"><img src="./images/news-img-02.png" alt="" /></div>
-                            <div className="blog-content">
-                                <h6>Listening is The Communication</h6>
+                            <div className="blog-img"><img src="./images/managing.jpg" alt="" /></div>
+                            <div className="blog-content">                                
                                 <h2>Managing Your Project Sponsors</h2>
-                                <div className="description">Lorem Ipsum is simply dummy text of the printing and typetry. Lorem Ipsum has been the industry's standard dummy.</div>
-                                <div className="black-outline-btn"><a href="/">Read More</a></div>
+                                <div className="description">In this week's article I am going to dive deeper into why project sponsor engagement is so important.</div>
+                                <div className="black-outline-btn"><Link href="/managing-your-project-sponsors">Read More</Link></div>
                             </div>
                         </div>
                     </div>
                     <div className="col-12 col-lg-4">
                         <div className="our-platforms-box wow fadeInUp" data-wow-delay="0.4s">
-                            <div className="blog-img"><img src="./images/news-img-03.png" alt="" /></div>
-                            <div className="blog-content">
-                                <h6>Listening is The Communication</h6>
-                                <h2>Make Your Project Execution Phase As Boring As Possible</h2>
-                                <div className="description">Lorem Ipsum is simply dummy text of the printing and typetry. Lorem Ipsum has been the industry's standard dummy.</div>
-                                <div className="black-outline-btn"><a href="/">Read More</a></div>
+                            <div className="blog-img"><img src="./images/leaders.jpg" alt="" /></div>
+                            <div className="blog-content">                               
+                                <h2>Leaders Set The Tone</h2>
+                                <div className="description">The most fundamental argument around leadership is whether leadership is inherent to a person or whether it can be taught.</div>
+                                <div className="black-outline-btn"><Link href="/leaders-set-the-tone">Read More</Link></div>
                             </div>
                         </div>
                     </div>
@@ -339,18 +280,23 @@ export default function Home(){
 
             <section className="our-clients-wrapper">
                 <div className="container">
-                  <h1 className="section-title">Our Golden Clients</h1>
+                  <h1 className="section-title">Our Key Clients</h1>
                     <GoldenClientComponent />
                 </div>
             </section>  
 
-            <section className="industry-leaders-wrapper">
-                <div className="container"> 
-                  <h1>Don’t  trust us. Trust the industry leaders</h1>
-                  <div className="section-top-content">See what are users are saying about our services and support</div>
-                    <IndustryLeaderComponent />
-                </div>
-            </section>  
+              
+            {
+                /*
+                <section className="industry-leaders-wrapper">
+                    <div className="container"> 
+                    <h1>Don’t  trust us. Trust the industry leaders</h1>
+                    <div className="section-top-content">See what are users are saying about our services and support</div>
+                        <IndustryLeaderComponent />
+                    </div>
+                </section>
+                */
+            }
 
              <section className="google-rating-wrapper">
                 <div className="container">
@@ -360,16 +306,7 @@ export default function Home(){
 
         </section>    
 
-        <section className="can-help-wrapper">
-          <div className="container">
-              <div className="can-help wow fadeInUp">
-                  <h1 className="section-title">What can we help you achieve?
-                  <span className="text-yellow">See how we can help.</span></h1>
-                  <div className="white-btn"><a href="/">Work With Us</a></div>
-              </div>
-          </div>
-      </section>         
-      
+        <HelpWrapperComponent />   
 
 
       </div>

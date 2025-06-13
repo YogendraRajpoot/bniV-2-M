@@ -1,13 +1,14 @@
 import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
+import HelpWrapperComponent from '../components/HelpWrapperComponent';
 
 export default function TalentSolution(){   
     
     return(
         <>
         <Head>
-            <title>Business Needs Inc: Talent Solution</title>
+            <title>Business Needs Inc: Talent Solutions</title>
             <meta name="keywords" content="Business Needs Inc" />
             <meta name="description" content="Business Needs Inc" />
         </Head>        
@@ -21,7 +22,7 @@ export default function TalentSolution(){
                         <ol className="breadcrumb">
                             <li className="breadcrumb-item"><a href="/">Home</a></li>
                             <li className="breadcrumb-item"><a href="/">Our Services</a></li>
-                            <li className="breadcrumb-item active">Talent Solution</li>
+                            <li className="breadcrumb-item active">Talent Solutions</li>
                         </ol>         
                     </div>
                 </div>
@@ -34,7 +35,7 @@ export default function TalentSolution(){
                         <div className="col-12 col-md-4 col-lg-3 order-1 order-lg-2">                        
                             <ul className="nav flex-column">
                                 <li className="nav-item">
-                                <a className="nav-link active" data-bs-toggle="tab" href="#what-we-do">What we do?</a>
+                                <a className="nav-link active" data-bs-toggle="tab" href="#what-we-do">What we do</a>
                                 </li>
                                 <li className="nav-item">
                                 <a className="nav-link" data-bs-toggle="tab" href="#our-core-services">Our Core Services</a>
@@ -48,191 +49,316 @@ export default function TalentSolution(){
                             <div className="tab-content">
                                 <div className="active" id="what-we-do">
                                     <div className="why-bin-content">
-                                        <h5 className="section-title-v1">WHAT WE DO?</h5>
-                                        <h1 className="section-title">End-to-End Talent Solutions: Connecting You with Top Talent for Sustainable Growth and High-Performance Teams Across Industries</h1>
-                                        <p>At BNI, we provide comprehensive talent solutions that help you find, hire, and nurture the best professionals. From talent sourcing to onboarding and workforce optimization, our services are designed to align with your company’s specific needs, ensuring you build a team that drives success and innovation.</p>
-                                    </div>
+                                        <h5 className="section-title-v1">WHAT WE DO</h5>
+                                        <h1 className="section-title">Build Faster, Hire Smarter - Real Results</h1>
+                                        <p>At Business Needs Inc., we specialize in delivering top-tier talent tailored to your business needs. Whether you're looking for contract staff, full-time employees, or project-based consultants, our flexible staffing solutions ensure you get the right talent at the right time—without the hiring hassle.</p>
+                                        <p>With expertise across industries and technologies, our staffing solutions are built for speed, quality, and long-term impact. From early-stage startups to Fortune 500 enterprises, our clients rely on us for dependable, qualified consultants ready to make an impact from day one.</p>
+                                        <p>Let us help you build a stronger, more agile team—backed by people who care about results. </p>  
+                                        </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
+            </section>     
 
-            <section className="our-core-services gray-bg" id="our-core-services">
-                <div className="container">
-                    <h1 className="section-title wow fadeInUp">Executive Recruitment Services</h1>
-
-                   <section className="our-mission-vision-core-wrapper gray-bg">
-                        <section className="our-mission-wrapper our-vision-wrapper">
-                            <div className="container">
-                                <div className="our-mission">
-                                    <div className="row align-items-center">
-                                        <div className="col-12 col-lg-4 col-xl-5 order-1 order-lg-2 order-xl-2">
-                                            <div className="mission-img wow fadeInRight"><img src="./images/case-study.png" alt="" /></div>
-                                        </div>
-                                        <div className="col-12 col-lg-8 col-xl-7 order-2 order-lg-1 order-xl-1">
-                                            <div className="mission-content wow fadeInUp">
-                                                <h5 className="section-title-v1">IT Staffing</h5>                                        
-                                                <p>We provide skilled IT professionals specializing across a wide range of technologies like software development, data analytics, cybersecurity, cloud computing, and more. Whether you need contract, contract-to-hire, or full-time talent, we match you with talented experts ready to help you meet your goals.</p>
-                                            </div>
-                                        </div>
-                                    </div>
+            <section className="why-choose-wrapper our-value-wrapper">
+                <div className="container-fluid">
+                    <div className="why-choose">
+                        <div className="row">
+                            <div className="col-12 col-lg-6">
+                                <div className="choose-content">
+                                    <h1 className="section-title wow fadeInUp"> Our Value Proposition </h1>
+                                    <p className='section-top-content wow fadeInUp'>At Business Needs Inc., we bring more than just talent. We bring a partnership built on trust, speed, and precision. Here's what sets us apart:</p>
+                                    <ul className="custom-list">
+                                        <li className="wow fadeInUp">                                           
+                                            <p>Dedicated Account Manager (Single Point of Contact) for consistent, streamlined communication</p>
+                                        </li>
+                                        <li className="wow fadeInUp" data-wow-delay="0.2s">                                           
+                                            <p>In-house technical and business experts ensure every candidate is vetted for quality</p>
+                                        </li>
+                                        <li className="wow fadeInUp" data-wow-delay="0.4s">                                           
+                                            <p>Nationwide Reach with Local Expertise to support clients across geographies</p>
+                                        </li>
+                                        <li className="wow fadeInUp" data-wow-delay="0.6s">                                          
+                                            <p>Automated & Scalable Recruitment Processes for efficiency and faster delivery</p>
+                                        </li>
+                                        <li className="wow fadeInUp" data-wow-delay="0.6s">                                           
+                                            <p>Customized Performance Metrics tailored to your project and team goals</p>
+                                        </li>
+                                        <li className="wow fadeInUp" data-wow-delay="0.6s">                                           
+                                            <p>Flexible delivery and pricing models to fit your project and budget</p>
+                                        </li>
+                                        <li className="wow fadeInUp" data-wow-delay="0.6s">                                           
+                                            <p>Specialized Sourcing Teams with domain-specific recruiters</p>
+                                        </li>
+                                        <li className="wow fadeInUp" data-wow-delay="0.6s">                                           
+                                            <p>Employee Care Program to support consultant engagement, retention, and performance</p>
+                                        </li>
+                                    </ul>
+                                    <p className='section-top-content wow fadeInUp'>We’re not just filling roles. We’re building teams that move your business forward.</p>
                                 </div>
                             </div>
-                        </section>
-
-                        <section className="our-mission-wrapper">
-                        <div className="container">
-                            <div className="our-mission">
-                                <div className="row align-items-center">
-                                    <div className="col-12 col-md-4 col-lg-5">
-                                        <div className="mission-img wow fadeInLeft"><img src="./images/case-study.png" alt="" /></div>
-                                    </div>
-                                    <div className="col-12 col-md-8 col-lg-7">
-                                        <div className="mission-content wow fadeInUp">
-                                            <h5 className="section-title-v1">Creative and Marketing Staffing</h5>                                    
-                                            <p>From graphic designers and copywriters to UX/UI specialists, we help your brand find the professionals who bring your image to life. Our talent pool ranges strategic thinkers and hands-on creators involved in branding, crafting content, campaigns, and digital engagement.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-                    <section className="our-mission-wrapper our-vision-wrapper">
-                            <div className="container">
-                                <div className="our-mission">
-                                    <div className="row align-items-center">
-                                        <div className="col-12 col-lg-4 col-xl-5 order-1 order-lg-2 order-xl-2">
-                                            <div className="mission-img wow fadeInRight"><img src="./images/case-study.png" alt="" /></div>
-                                        </div>
-                                        <div className="col-12 col-lg-8 col-xl-7 order-2 order-lg-1 order-xl-1">
-                                            <div className="mission-content wow fadeInUp">
-                                                <h5 className="section-title-v1">Healthcare Staffing</h5>                                        
-                                                <p>We deliver highly qualified healthcare professionals to hospitals, clinics, and other healthcare networks. Our services include staffing for nurses, medical assistants, and other administrative roles. We ensure speed, care, and quality when delivering talent.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-
-                        <section className="our-mission-wrapper">
-                        <div className="container">
-                            <div className="our-mission">
-                                <div className="row align-items-center">
-                                    <div className="col-12 col-md-4 col-lg-5">
-                                        <div className="mission-img wow fadeInLeft"><img src="./images/case-study.png" alt="" /></div>
-                                    </div>
-                                    <div className="col-12 col-md-8 col-lg-7">
-                                        <div className="mission-content wow fadeInUp">
-                                            <h5 className="section-title-v1">RPO</h5>                                    
-                                            <p>Let us manage some or all of your recruitment process. With our RPO services, you gain a reliable partner to handle sourcing, attracting, and onboarding talent. We take tasks off your plate, reducing costs and hiring professional talent on time.</p>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div className="col-12 col-lg-6 align-self-end">
+                                <div className="choose-image wow fadeInUp"><img src="./images/why-bni.png" alt="" /></div>
                             </div>
                         </div>
-                    </section>
-
-                    <section className="our-mission-wrapper our-vision-wrapper">
-                            <div className="container">
-                                <div className="our-mission">
-                                    <div className="row align-items-center">
-                                        <div className="col-12 col-lg-4 col-xl-5 order-1 order-lg-2 order-xl-2">
-                                            <div className="mission-img wow fadeInRight"><img src="./images/case-study.png" alt="" /></div>
-                                        </div>
-                                        <div className="col-12 col-lg-8 col-xl-7 order-2 order-lg-1 order-xl-1">
-                                            <div className="mission-content wow fadeInUp">
-                                                <h5 className="section-title-v1">Professional Staffing</h5>                                        
-                                                <p>We connect businesses with professionals across industries like finance, administration, HR, customer service, and other functions. We deliver candidates who align with your culture and goals whether you need them long-term or interim support.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-
-                        <section className="our-mission-wrapper">
-                        <div className="container">
-                            <div className="our-mission">
-                                <div className="row align-items-center">
-                                    <div className="col-12 col-md-4 col-lg-5">
-                                        <div className="mission-img wow fadeInLeft"><img src="./images/case-study.png" alt="" /></div>
-                                    </div>
-                                    <div className="col-12 col-md-8 col-lg-7">
-                                        <div className="mission-content wow fadeInUp">
-                                            <h5 className="section-title-v1">Payroll Services</h5>                                    
-                                            <p>Our payroll services simplify your compensation and contract management in compliance with your needs. We take on your administrative burdens like handling payroll, tax filing, and coordinating benefits so that you can focus on running your business.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-                    <section className="our-mission-wrapper our-vision-wrapper">
-                            <div className="container">
-                                <div className="our-mission">
-                                    <div className="row align-items-center">
-                                        <div className="col-12 col-lg-4 col-xl-5 order-1 order-lg-2 order-xl-2">
-                                            <div className="mission-img wow fadeInRight"><img src="./images/case-study.png" alt="" /></div>
-                                        </div>
-                                        <div className="col-12 col-lg-8 col-xl-7 order-2 order-lg-1 order-xl-1">
-                                            <div className="mission-content wow fadeInUp">
-                                                <h5 className="section-title-v1">Engineering Staffing</h5>                                        
-                                                <p>Our engineers bring industry-specific experience and technical expertise to bring your innovations to life. We meet your needs where they are by finding the talent with the right skills and background knowledge to help you close projects.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </section>                   
-
-
+                    </div>
                 </div>
-            </section>
+            </section>    
+                   
+
+            <section className="our-mission-vision-core-wrapper gray-bg" id="our-core-services">                  
+                <section className="our-mission-wrapper our-vision-wrapper" id="it-staffing">
+                    <div className="container">
+                        <div className="our-mission">
+                            <div className="row align-items-center">
+                                <div className="col-12 col-lg-4 col-xl-5 order-1 order-lg-2 order-xl-2">
+                                    <div className="mission-img wow fadeInRight"><img src="./images/itstaffing.png" alt="" /></div>
+                                </div>
+                                <div className="col-12 col-lg-8 col-xl-7 order-2 order-lg-1 order-xl-1">
+                                    <div className="mission-content wow fadeInUp">
+                                        <h1 class="section-title">Our Core Services</h1>
+                                        <h5 className="section-title-v1">IT Staffing Services</h5>                                        
+                                        <p>We offer flexible, scalable IT staffing solutions tailored to your specific business requirements. Whether you're looking to fill a single role or build an entire team. Our staffing model is designed to reduce time-to-hire, ensure technical precision, and support long-term success.</p>
+                                        <p>Roles We support but not limited to:</p>
+                                        <ul>
+                                            <li>· <b>Software & Web Development:</b> Frontend (React, Angular, Vue.js), Backend (Java, Python, .NET, Node.js), Full-Stack Engineers</li>
+                                            <li>· <b>Cloud & DevOps:</b> AWS, Azure, & GCP Engineers, DevOps & SRE Specialists, Cloud Architects</li>
+                                            <li>· <b>Data & Analytics:</b> Data Engineers/Scientists, BI Developers, Snowflake/Power BI/Tableau Experts</li>
+                                            <li>· <b>Quality Assurance & Testing:</b> Manual & Automation Testers, QA Engineers, Performance & Security Testers</li>
+                                            <li>· <b>Mobile Development:</b> Android & iOS Developers, Flutter & React Native Engineers</li>
+                                            <li>· <b>Enterprise Systems & Integrations:</b> Salesforce Consultants, SAP/Oracle/Workday Professionals, System Integrators</li>
+                                            <li>· <b>IT Infrastructure & Support:</b> Network/System Administrators, Helpdesk, IT Security Analysts</li>
+                                            <li>· <b>Project & Program Management:</b> Agile Project Managers, Scrum Masters, Business Analysts</li>
+                                        </ul>
+                                        <p>With our proactive recruiting engine and a curated bench of 200+ consultants, we can deliver talent aligned with your tech stack, timelines, and culture on demand.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section className="our-mission-wrapper" id="creative-marketing">
+                    <div className="container">
+                        <div className="our-mission">
+                            <div className="row align-items-center">
+                                <div className="col-12 col-md-4 col-lg-5">
+                                    <div className="mission-img wow fadeInLeft"><img src="./images/creative_and_marketing_staffing.png" alt="" /></div>
+                                </div>
+                                <div className="col-12 col-md-8 col-lg-7">
+                                    <div className="mission-content wow fadeInUp">
+                                        <h5 className="section-title-v1">Creative & Marketing Staffing Services</h5>                                    
+                                        <p>We help brands tell compelling stories and connect with their audiences by providing top-tier creative and marketing talent. Whether you need short-term creative support or long-term marketing leadership, we deliver professionals who bring ideas to life and drive results.</p>
+                                        <p>We cover roles including:</p>
+                                            <ul>
+                                                <li>· Graphic Designers & Art Directors</li>
+                                                <li>· UX/UI Designers</li>
+                                                <li>· Content Writers & Copywriters </li>
+                                                <li>· Marketing Managers & Coordinators</li>
+                                                <li>· Digital Marketing Specialists (SEO, SEM, Email, PPC)</li>
+                                                <li>· Brand Strategists</li>
+                                                <li>· Social Media Managers</li>
+                                                <li>· Creative Project Managers</li>
+                                                <li>· Web & Visual Designers</li>
+                                            </ul>
+                                        <p>From product launches to brand revamps, we help you build teams that create, engage, and convert.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section className="our-mission-wrapper our-vision-wrapper" id="healthcare-staffing">
+                        <div className="container">
+                            <div className="our-mission">
+                                <div className="row align-items-center">
+                                    <div className="col-12 col-lg-4 col-xl-5 order-1 order-lg-2 order-xl-2">
+                                        <div className="mission-img wow fadeInRight"><img src="./images/healthcare_staffing.png" alt="" /></div>
+                                    </div>
+                                    <div className="col-12 col-lg-8 col-xl-7 order-2 order-lg-1 order-xl-1">
+                                        <div className="mission-content wow fadeInUp">
+                                            <h5 className="section-title-v1">Healthcare Staffing Services</h5>                                        
+                                            <p>We understand the critical need for skilled healthcare professionals who can deliver quality care while supporting complex healthcare operations. Our healthcare staffing solutions are tailored to meet the dynamic demands of hospitals, clinics, and healthcare providers across the U.S.</p>
+                                            <p>We place certified, compassionate, and experienced talent in roles such as:</p>
+                                            <ul>
+                                                <li>· Registered Nurses (RNs)</li>
+                                                <li>· Licensed Practical Nurses (LPNs)</li>
+                                                <li>· Medical Assistants</li>
+                                                <li>· Radiologic and Imaging Technicians</li>
+                                                <li>· Health Information Technicians</li>
+                                                <li>· Medical Billing and Coding Specialists</li>
+                                                <li>· Healthcare IT Analysts</li>
+                                                <li>· Clinical Project Managers</li>
+                                                <li>· Case Managers and Utilization Review Nurses</li>
+                                            </ul>
+                                            <p>Whether you need per-dem, contract, contract-to-hire, or permanent placements, we deliver with the right professionals. Let us help you maintain continuity of care and operational excellence with top-tier healthcare talent.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                
+
+                <section className="our-mission-wrapper" id="engineering-staffing">
+                    <div className="container">
+                        <div className="our-mission">
+                            <div className="row align-items-center">
+                                <div className="col-12 col-md-4 col-lg-5">
+                                    <div className="mission-img wow fadeInLeft"><img src="./images/engineering-staffing.png" alt="" /></div>
+                                </div>
+                                <div className="col-12 col-md-8 col-lg-7">
+                                    <div className="mission-content wow fadeInUp">
+                                        <h5 className="section-title-v1">Engineering Staffing Services</h5>                                        
+                                        <p>We deliver high-performing engineering talent that drives innovation and operational excellence. Our team understands the nuances of engineering disciplines and sources professionals who bring both technical expertise and hands-on experience.</p>
+                                        <p>We support a wide range of roles across industries, including:</p>
+                                        <ul>
+                                            <li>· Mechanical Engineers</li>
+                                            <li>· Electrical Engineers</li>
+                                            <li>· Civil & Structural Engineers </li>
+                                            <li>· Manufacturing & Industrial Engineers </li>
+                                            <li>· Process & Quality Engineers </li>
+                                            <li>· Design Engineers (CAD, SolidWorks, AutoCAD)</li>
+                                            <li>· Engineering Project Managers</li>
+                                            <li>· Systems & Controls Engineers</li>
+                                            <li>· Environmental Engineers </li>
+                                        </ul>
+                                        <p>Whether you're scaling a new product line or modernizing infrastructure, we connect you with the engineers who will get the job done on time and on budget.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section> 
+
+                            
+
+                <section className="our-mission-wrapper our-vision-wrapper" id="professional-staffing">
+                        <div className="container">
+                            <div className="our-mission">
+                                <div className="row align-items-center">
+                                    <div className="col-12 col-lg-4 col-xl-5 order-1 order-lg-2 order-xl-2">
+                                        <div className="mission-img wow fadeInRight"><img src="./images/pofessional_staffing.png" alt="" /></div>
+                                    </div>
+                                    <div className="col-12 col-lg-8 col-xl-7 order-2 order-lg-1 order-xl-1">
+                                        <div className="mission-content wow fadeInUp">
+                                            <h5 className="section-title-v1">Professional Staffing Services</h5>                                        
+                                            <p>We extend our staffing expertise beyond IT to offer high-quality professional staffing solutions across business functions. Our recruitment specialists match you with professionals who bring the right blend of skills, experience, and cultural fit, ensuring your business runs smoothly and efficiently.</p>
+                                            <p>We cover a wide range of roles including:</p>
+                                            <ul>
+                                                <li>· Administrative Assistants & Executive Assistants</li>
+                                                <li>· HR Specialists & Recruiters</li>
+                                                <li>· Finance & Accounting Professionals</li>
+                                                <li>· Project & Program Managers </li>
+                                                <li>· Customer Service Representatives</li>
+                                                <li>· Procurement & Supply Chain Specialists</li>    
+                                                <li>· Operations Managers</li> 
+                                                <li>· Compliance & Risk Analysts</li>                                           
+                                            </ul>
+                                            <p>Whether you need support for back-office operations, project oversight, or customer-facing roles, we provide reliable talent to keep your organization moving forward.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                <section className="our-mission-wrapper" id="rpo">
+                    <div className="container">
+                        <div className="our-mission">
+                            <div className="row align-items-center">
+                                <div className="col-12 col-md-4 col-lg-5">
+                                    <div className="mission-img wow fadeInLeft"><img src="./images/rpo.png" alt="" /></div>
+                                </div>
+                                <div className="col-12 col-md-8 col-lg-7">
+                                    <div className="mission-content wow fadeInUp">
+                                        <h5 className="section-title-v1">Recruitment Process Outsourcing (RPO)</h5>                                    
+                                        <p><b>Streamlining Your Talent Acquisition with Scalable RPO Solutions</b></p>                                
+                                        <p>Our RPO services are designed to take the complexity out of recruitment so you can focus on what matters most - growing your business. Whether you need full-cycle recruitment or support for a specific part of your hiring process, we provide flexible, scalable solutions customized to your talent goals.</p>
+                                        <p><b>Our RPO Capabilities Include:</b></p>     
+                                        <ul>
+                                            <li>· <b>Job Requisition Management:</b> Helping define roles, skills, and requirements aligned with your business needs.</li>
+                                            <li>· <b>Sourcing & Screening:</b> Leveraging our extensive talent network, domain-specific recruiters, and in-house technical panels to identify the best candidates.</li>
+                                            <li>· <b>Interview Coordination & Offer Management:</b> Managing logistics, feedback loops, and negotiations to accelerate hiring decisions.</li>
+                                            <li>· <b>Onboarding & Compliance:</b> Ensuring seamless integration of new hires while maintaining full compliance with labor laws and internal policies.</li>
+                                            <li>· <b>Employer Branding Support:</b> Enhancing your visibility in the market to attract top-tier candidates.</li>
+                                            <li>· <b>Analytics & Reporting:</b> Providing detailed metrics to continuously refine hiring strategy and improve performance.</li>                                                
+                                        </ul>
+                                        <p>Whether you're scaling quickly or facing high-volume hiring demands, our RPO model offers cost-effective, high-impact talent acquisition—powered by industry expertise and real-time insights.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section className="our-mission-wrapper our-vision-wrapper" id="payroll-services">
+                    <div className="container">
+                        <div className="our-mission">
+                            <div className="row align-items-center">
+                                <div className="col-12 col-lg-4 col-xl-5 order-1 order-lg-2 order-xl-2">
+                                    <div className="mission-img wow fadeInRight"><img src="./images/payroll_services.png" alt="" /></div>
+                                </div>
+                                <div className="col-12 col-lg-8 col-xl-7 order-2 order-lg-1 order-xl-1">
+                                    <div className="mission-content wow fadeInUp">
+                                        <h5 className="section-title-v1">Payroll Services</h5>    
+                                        <p><b>Simplify Compliance and Compensation with Trusted Payroll Solutions</b></p>                                
+                                        <p>Our Payroll Services are designed to relieve the administrative burden of employee compensation while ensuring compliance with federal, state, and local regulations. Whether you're managing a contingent workforce, independent contractors, or remote employees across the U.S., we provide seamless payroll processing with accuracy, transparency, and speed.</p>
+                                        <p><b>Our Payroll Services Cover:</b></p>     
+                                        <ul>
+                                            <li>· <b>Onboarding & Documentation:</b> Complete handling of employment documentation, eligibility checks, and policy acknowledgment.</li>
+                                            <li>· <b>Payroll Administration:</b> Timely and accurate processing of wages, reimbursements, taxes, and deductions.</li>
+                                            <li>· <b>Tax Withholding & Filing:</b> Federal, state, and local tax calculations, filings, and compliance.</li>
+                                            <li>· <b>Employee Benefits Coordination:</b> Optional management of health insurance, PTO, and 401(k) contributions (as applicable).</li>
+                                            <li>· <b>Worker Classification & Compliance:</b> Support for W-2 and 1099 worker classification and audit-proof recordkeeping.</li>
+                                            <li>· <b>Reporting & Analytics:</b> Access to real-time payroll data and customized reports for better workforce visibility.</li>                                                
+                                        </ul>
+                                        <p>Our white-labeled payroll services allow clients to retain control over talent while outsourcing the complexity. Let us take care of the paperwork while you focus on productivity and performance.</p>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>   
+
+                
+                
+            </section>                     
 
             <section className="talent-staffing-wrapper" id="our-strategy">
                 <div className="container">
-                    <h1 className="section-title wow fadeInUp">Talent Staffing Delivery Models</h1>
+                    <h1 className="section-title wow fadeInUp">Our Staffing Model</h1>
                     <div className="talent-staffing">
                         <div className="talent-box wow fadeInUp">
                             <div className="talent-head">
                                 <div className="icon"><i className="fa fa-user-o" aria-hidden="true"></i></div>
-                                <h4>Payroll Services</h4>
+                                <h4>Contract & Contract-to-Hire Staffing</h4>
                             </div>
-                            <div className="talent-content">Direct Hire staffing involves recruiting and placing full-time employees directly with your company. Our team works closely with you to understand your specific hiring needs and company culture, sourcing highly qualified candidates who are the right fit for your organization. Once hired, the candidate becomes a permanent member of your team, and we offer a guarantee on the placement to ensure a successful integration into your workforce.</div>
+                            <div className="talent-content">Need skilled professionals on short notice for temporary or trial periods? Our contract and contract-to-hire staffing solutions let you scale your team quickly and adapt to changing project needs—without long-term commitments.</div>
                         </div>
                         <div className="talent-box wow fadeInUp" data-wow-delay="0.2s">
                             <div className="talent-head">
                                 <div className="icon"><i className="fa fa-user-o" aria-hidden="true"></i></div>
-                                <h4>Contract/Temporary Staffing</h4>
+                                <h4>Full-Time (Direct Hire) Recruitment</h4>
                             </div>
-                            <div className="talent-content">Contract or Temporary Staffing is designed for companies that need skilled professionals for short-term projects or to cover temporary gaps, such as seasonal demands or employee leave. In this model, we provide you with qualified workers who are employed by our staffing agency for a defined period. You get the flexibility to meet your immediate staffing needs while we handle the recruitment, onboarding, and HR responsibilities.</div>
+                            <div className="talent-content">When it’s time to make permanent additions to your team, we help you find the right cultural and technical fit. Our proven recruitment process identifies top talent who are ready to grow with your organization.</div>
                         </div>
                         <div className="talent-box wow fadeInUp" data-wow-delay="0.4s">
                             <div className="talent-head">
                                 <div className="icon"><i className="fa fa-user-o" aria-hidden="true"></i></div>
-                                <h4>Contract-to-Hire/ Temp-to-Perm</h4>
+                                <h4>Project-Based Staffing</h4>
                             </div>
-                            <div className="talent-content">Contract-to-Hire (or Temp-to-Perm) allows companies to evaluate a candidate's performance and fit within the organization before committing to a permanent hire. We place candidates in temporary roles, giving you the flexibility to assess their skills and work ethic over a set period. If the candidate is a good match, you have the option to convert them into a full-time employee, making this a great solution for minimizing hiring risks while ensuring a long-term fit.</div>
+                            <div className="talent-content">For time-bound initiatives, we offer project-based staffing that aligns talent with your goals. Whether it’s launching a new app or migrating to the cloud, we provide experienced specialists to execute your vision.</div>
                         </div>
                     </div>
                 </div>
             </section>            
 
-            <section className="can-help-wrapper">
-                <div className="container">
-                    <div className="can-help wow fadeInUp">
-                        <h1 className="section-title">What can we help you achieve?
-                        <span className="text-yellow">See how we can help.</span></h1>
-                        <div className="white-btn"><a href="/">Work With Us</a></div>
-                    </div>
-                </div>
-            </section>
+            <HelpWrapperComponent />
 
         </div>
 

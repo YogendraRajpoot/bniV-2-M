@@ -1,5 +1,6 @@
 'use client';
 import { useEffect } from 'react';
+import Link from 'next/link';
 
 export default function InsightsComponent() {
   useEffect(() => {
@@ -60,57 +61,57 @@ export default function InsightsComponent() {
             <div className="insights-slider">
                 <div>
                     <div className="new-insights-box wow fadeInUp">
-                        <div className="insights-img"><img src="images/news-01.png" alt="" /></div>
+                        <div className="insights-img"><img src="images/Listening.jpg" alt="" /></div>
                         <div className="insights-content">
                             <div className="news-category">
-                                <span className="category">Travel</span>
-                                <span className="date">23 March 2025</span>
+                                <span className="category">Blogs</span>
+                                <span className="date">9 December, 2024</span>
                             </div>
-                            <h2>Train Or Bus Journey? Which one suits?</h2>
-                            <div className="description">The choice between a train or bus journey depends on various factors such as the distance of the journey, the time available, the cost, and person</div>
-                            <div className="read-more"><a href="/">Read More...</a></div>
+                            <h2>Listening is The Communication</h2>
+                            <div className="description">Are You Listening? The question Are You Listening? is mostly not understood and people reply with a big YES or by nodding their head.</div>
+                            <div className="read-more"><Link href="/listening-is-the-communication">Read More...</Link></div>
                         </div>
                     </div>
                 </div>
                 <div>
                     <div className="new-insights-box wow fadeInUp">
-                        <div className="insights-img"><img src="images/news-02.png" alt="" /></div>
+                        <div className="insights-img"><img src="images/managing.jpg" alt="" /></div>
                         <div className="insights-content">
                             <div className="news-category">
-                                <span className="category">Technology</span>
-                                <span className="date">17 March 2025</span>
+                                <span className="category">Blogs</span>
+                                <span className="date">10 July, 2024</span>
                             </div>
-                            <h2>Best Website to research for your  next project</h2>
-                            <div className="description">Capitalize on low hanging fruit to identify a ballpark value added activity  beta test. Override the digital added activity divide with additional clickthroughs</div>
-                            <div className="read-more"><a href="/">Read More...</a></div>
+                            <h2>Managing Your Project Sponsors</h2>
+                            <div className="description">In this article, I mentioned one of the reasons for project failures is lack of engagement from project sponsors.</div>
+                            <div className="read-more"><Link href="/managing-your-project-sponsors">Read More...</Link></div>
                         </div>
                     </div>
                 </div>
                 <div>
                     <div className="new-insights-box wow fadeInUp">
-                        <div className="insights-img"><img src="images/news-02.png" alt="" /></div>
+                        <div className="insights-img"><img src="images/leaders.jpg" alt="" /></div>
                         <div className="insights-content">
                             <div className="news-category">
-                                <span className="category">Travel</span>
-                                <span className="date">23 March 2025</span>
+                                <span className="category">Blogs</span>
+                                <span className="date">16 January, 2024</span>
                             </div>
-                            <h2>Train Or Bus Journey? Which one suits?</h2>
-                            <div className="description">The choice between a train or bus journey depends on various factors such as the distance of the journey, the time available, the cost, and person</div>
-                            <div className="read-more"><a href="/">Read More...</a></div>
+                            <h2>Leaders Set The Tone</h2>
+                            <div className="description">The most fundamental argument around leadership is whether leadership is inherent to a person or whether it can be taught.</div>
+                            <div className="read-more"><Link href="/leaders-set-the-tone">Read More...</Link></div>
                         </div>
                     </div>
                 </div>
                 <div>
                     <div className="new-insights-box wow fadeInUp">
-                        <div className="insights-img"><img src="images/news-01.png" alt="" /></div>
+                        <div className="insights-img"><img src="images/whydo.jpg" alt="" /></div>
                         <div className="insights-content">
                             <div className="news-category">
-                                <span className="category">Travel 1</span>
-                                <span className="date">23 March 2025</span>
+                                <span className="category">Blogs</span>
+                                <span className="date">11 November, 2023</span>
                             </div>
-                            <h2>Train Or Bus Journey? Which one suits?</h2>
-                            <div className="description">The choice between a train or bus journey depends on various factors such as the distance of the journey, the time available, the cost, and person</div>
-                            <div className="read-more"><a href="/">Read More...</a></div>
+                            <h2>Why Do Many IT Projects Fail?</h2>
+                            <div className="description">Many organizations have experienced projects that failed to deliver on time, on budget, or the scope that was initially intended.</div>
+                            <div className="read-more"><Link href="/why-do-many-it-projects-fail">Read More...</Link></div>
                         </div>
                     </div>
                 </div>

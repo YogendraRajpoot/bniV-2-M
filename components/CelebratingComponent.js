@@ -61,7 +61,7 @@ export default function CelebratingComponent() {
                 <div className="col-12 col-lg-6">
                     <div className="celebrating-img-wrapper">
                         <div className="anniversary-img wow fadeInUp"><img src="./images/anniversary.png" alt="" /></div>
-                        <div className="celebrating-img wow fadeInUp"><img src="./images/celebrating-img.png" alt="" /></div>
+                        <div className="celebrating-img wow fadeInUp"><img src="./images/celebrating-img.jpeg" alt="" /></div>
                     </div>
                 </div>
                 <div className="col-12 col-lg-6">
@@ -73,17 +73,14 @@ export default function CelebratingComponent() {
                         <h3 className="wow fadeInUp">Check Out Our Brands</h3>
                         <div className="our-brands-slider">
                             <div>
-                                <div className="brand wow fadeInUp" data-wow-delay="0.1s"><img src="./images/our-brand-01.png" alt="" /></div>
+                                <div className="brand wow fadeInUp" data-wow-delay="0.1s"><a href="https://riyuglobal.com/" target="_blank"><img src="./images/our-brand-01.png" alt="" /></a></div>
                             </div>
                             <div>
-                                <div className="brand wow fadeInUp" data-wow-delay="0.2s"><img src="./images/our-brand-02.png" alt="" /></div>
+                                <div className="brand wow fadeInUp" data-wow-delay="0.2s"><a href="https://www.rrindustriesus.com/" target="_blank"><img src="./images/our-brand-02.png" alt="" /></a></div>
                             </div>
                             <div>
-                                <div className="brand wow fadeInUp" data-wow-delay="0.3s"><img src="./images/our-brand-03.png" alt="" /></div>
-                            </div>
-                            <div>
-                                <div className="brand wow fadeInUp" data-wow-delay="0.1s"><img src="./images/our-brand-01.png" alt="" /></div>
-                            </div>
+                                <div className="brand wow fadeInUp" data-wow-delay="0.3s"><a href="https://www.harshuglobal.com/" target="_blank"><img src="./images/our-brand-03.png" alt="" /></a></div>
+                            </div>                            
                         </div>
                     </div>
                 </div>

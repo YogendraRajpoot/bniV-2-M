@@ -61,7 +61,7 @@ export default function OurTeamComponent() {
             <div className="our-team-slider">
                 <div>
                     <div className="team-box wow fadeInUp">
-                        <div className="team-img"><img src="./images/team-01.png" alt="" /></div>
+                        <div className="team-img"><img src="./images/Vinayak.png" alt="Vinayak Mittal" /></div>
                         <div className="team-content">
                             <h1>Vinayak Mittal</h1>
                             <h5>Vice President Operations</h5>
@@ -70,7 +70,7 @@ export default function OurTeamComponent() {
                 </div>
                 <div>
                     <div className="team-box wow fadeInUp" data-wow-delay="0.1s">
-                        <div className="team-img"><img src="./images/team-02.png" alt="" /></div>
+                        <div className="team-img"><img src="./images/Mudith.png" alt="Mudit Maheshwari" /></div>
                         <div className="team-content">
                             <h1>Mudit Maheshwari</h1>
                             <h5>Director of Business Development</h5>
@@ -79,7 +79,7 @@ export default function OurTeamComponent() {
                 </div>
                 <div>
                     <div className="team-box wow fadeInUp" data-wow-delay="0.2s">
-                        <div className="team-img"><img src="./images/team-03.png" alt="" /></div>
+                        <div className="team-img"><img src="./images/DG_Headshot.png" alt="David Garcia" /></div>
                         <div className="team-content">
                             <h1>David Garcia</h1>
                             <h5>Director of IT</h5>
@@ -88,7 +88,7 @@ export default function OurTeamComponent() {
                 </div>
                 <div>
                     <div className="team-box wow fadeInUp" data-wow-delay="0.3s">
-                        <div className="team-img"><img src="./images/team-04.png" alt="" /></div>
+                        <div className="team-img"><img src="./images/Rohan.png" alt="Rohan Mittal" /></div>
                         <div className="team-content">
                             <h1>Rohan Mittal</h1>
                             <h5>Director of Business Development</h5>
@@ -97,7 +97,7 @@ export default function OurTeamComponent() {
                 </div>
                 <div>
                     <div className="team-box wow fadeInUp">
-                        <div className="team-img"><img src="./images/team-01.png" alt="" /></div>
+                        <div className="team-img"><img src="./images/Pankaj.png" alt="Pankaj Mital" /></div>
                         <div className="team-content">
                             <h1>Pankaj Mital</h1>
                             <h5>CEO</h5>
@@ -106,10 +106,10 @@ export default function OurTeamComponent() {
                 </div>
                 <div>
                     <div className="team-box wow fadeInUp">
-                        <div className="team-img"><img src="./images/team-03.png" alt="" /></div>
+                        <div className="team-img"><img src="./images/Siddhi.png" alt="Siddhi Gupta" /></div>
                         <div className="team-content">
                             <h1>Siddhi Gupta</h1>
-                            <h5>Director of Public Relations and Administrations</h5>
+                            <h5>Director - PR and Administration</h5>
                         </div>
                     </div>
                 </div>
