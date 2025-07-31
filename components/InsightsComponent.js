@@ -69,7 +69,7 @@ export default function InsightsComponent() {
                             </div>
                             <h2>Listening is The Communication</h2>
                             <div className="description">Are You Listening? The question Are You Listening? is mostly not understood and people reply with a big YES or by nodding their head.</div>
-                            <div className="read-more"><Link href="/listening-is-the-communication">Read More...</Link></div>
+                            <div className="read-more"><Link href="/listening-is-the-communication#post-details">Read More...</Link></div>
                         </div>
                     </div>
                 </div>
@@ -83,7 +83,7 @@ export default function InsightsComponent() {
                             </div>
                             <h2>Managing Your Project Sponsors</h2>
                             <div className="description">In this article, I mentioned one of the reasons for project failures is lack of engagement from project sponsors.</div>
-                            <div className="read-more"><Link href="/managing-your-project-sponsors">Read More...</Link></div>
+                            <div className="read-more"><Link href="/managing-your-project-sponsors#post-details">Read More...</Link></div>
                         </div>
                     </div>
                 </div>
@@ -97,7 +97,7 @@ export default function InsightsComponent() {
                             </div>
                             <h2>Leaders Set The Tone</h2>
                             <div className="description">The most fundamental argument around leadership is whether leadership is inherent to a person or whether it can be taught.</div>
-                            <div className="read-more"><Link href="/leaders-set-the-tone">Read More...</Link></div>
+                            <div className="read-more"><Link href="/leaders-set-the-tone#post-details">Read More...</Link></div>
                         </div>
                     </div>
                 </div>
@@ -111,7 +111,7 @@ export default function InsightsComponent() {
                             </div>
                             <h2>Why Do Many IT Projects Fail?</h2>
                             <div className="description">Many organizations have experienced projects that failed to deliver on time, on budget, or the scope that was initially intended.</div>
-                            <div className="read-more"><Link href="/why-do-many-it-projects-fail">Read More...</Link></div>
+                            <div className="read-more"><Link href="/why-do-many-it-projects-fail#post-details">Read More...</Link></div>
                         </div>
                     </div>
                 </div>

@@ -351,7 +351,7 @@ left: 0; top: 0; right: 0; bottom: 0; content: ""; position: absolute;}
     -webkit-box-orient: vertical; min-height: 77px;}
 .our-platforms-box h6{ color: #297FB6; font-weight: 700; margin-bottom: 20px;}
 .our-platforms-box .blog-img > img{ border-radius: 20px;}
-.our-platforms-box .description{ margin-bottom: 30px;}
+.our-platforms-box .description{ margin-bottom: 30px; min-height: 99px;}
 .our-platforms-box .black-outline-btn a{padding: 12px 33px; font-size: 14px; font-weight:500;}
 .recent-news-right{ margin-bottom:30px; text-align: right;}
 
@@ -368,7 +368,7 @@ left: 0; top: 0; right: 0; bottom: 0; content: ""; position: absolute;}
 .empolyee-right{ text-align: center;}
 .empolyee-right h2{ font-weight: 700; margin-bottom: 0;}
 .empolyee-right .empolyee-img{ background: url(/images/employee.png) no-repeat center bottom; margin-bottom: 20px;}
-.empolyee-right .empolyee-img > img{ margin: 0 auto;}
+.empolyee-right .empolyee-img > img{ margin: 0 auto; border-radius: 20%;}
 
 .our-golden-clients-wrapper{ background: url(/images/our-golden-clients-bg.png) no-repeat center center; background-size: cover;}
 .our-clients-wrapper{ padding: 70px 0; text-align: center;}
@@ -485,6 +485,8 @@ left: 0; top: 0; right: 0; bottom: 0; content: ""; position: absolute;}
 .team-box .team-img{ /*background: url(/images/team-bg.png) no-repeat center bottom;*/padding-bottom:4%; margin-bottom:20px;}
 .team-box .team-img > img{ margin: 0 auto; border-radius: 20%;}
 .our-value-wrapper{ background: none;}
+.our-value-wrapper .choose-image{ margin-right: 0;border-radius: 20px; overflow: hidden;}
+.our-value-wrapper .choose-image > img{ border-radius: 20px;}
 
 /***************************** Our Services Page *****************************/
 .our-core-services{ padding: 70px 0; overflow: hidden;}

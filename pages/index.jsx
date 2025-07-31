@@ -75,7 +75,7 @@ export default function Home(){
                         <div className="col-12 col-lg-7">
                             <div className="about-content wow fadeInUp">
                                 <h5 className="section-title-v1">Who We Are</h5>   
-                                <h1 className="section-title">Reliable Technology support & <span className="text-blue">Solutions</span></h1>                                                         
+                                <h1 className="section-title">Reliable Technology Support & <span className="text-blue">Solutions</span></h1>                                                         
                                 <div className="content">
                                     <p>At Business Needs Inc., we specialize in IT consulting and talent solutions, serving as a trusted partner in driving growth and innovation. Since 2004, we’ve empowered businesses across diverse industries with cutting-edge, customized technology solutions that tackle today’s unique challenges—from the rapid evolution of AI to the ever-expanding demands of the digital age. With a commitment to excellence, we help organizations stay ahead in an increasingly tech-driven world.</p>
                                 </div>                                
@@ -238,31 +238,31 @@ export default function Home(){
                 <div className="row">
                     <div className="col-12 col-lg-4">
                         <div className="our-platforms-box wow fadeInUp">
-                            <div className="blog-img"><img src="./images/Listening.jpg" alt="" /></div>
+                            <div className="blog-img"><img src="./images/Listening.jpg" alt="Listening Is The Communication" /></div>
                             <div className="blog-content">                               
                                 <h2>Listening Is The Communication</h2>
                                 <div className="description">Are You Listening? The question Are You Listening? is mostly not understood and people reply with a big YES or by nodding their head.</div>
-                                <div className="black-outline-btn"><Link href="/listening-is-the-communication">Read More</Link></div>
+                                <div className="black-outline-btn"><Link href="/listening-is-the-communication#post-details">Read More</Link></div>
                             </div>
                         </div>
                     </div>
                     <div className="col-12 col-lg-4">
                         <div className="our-platforms-box wow fadeInUp" data-wow-delay="0.2s">
-                            <div className="blog-img"><img src="./images/managing.jpg" alt="" /></div>
+                            <div className="blog-img"><img src="./images/managing.jpg" alt="Managing Your Project Sponsors" /></div>
                             <div className="blog-content">                                
                                 <h2>Managing Your Project Sponsors</h2>
                                 <div className="description">In this week's article I am going to dive deeper into why project sponsor engagement is so important.</div>
-                                <div className="black-outline-btn"><Link href="/managing-your-project-sponsors">Read More</Link></div>
+                                <div className="black-outline-btn"><Link href="/managing-your-project-sponsors#post-details">Read More</Link></div>
                             </div>
                         </div>
                     </div>
                     <div className="col-12 col-lg-4">
                         <div className="our-platforms-box wow fadeInUp" data-wow-delay="0.4s">
-                            <div className="blog-img"><img src="./images/leaders.jpg" alt="" /></div>
+                            <div className="blog-img"><img src="./images/leaders.jpg" alt="Leaders Set The Tone" /></div>
                             <div className="blog-content">                               
                                 <h2>Leaders Set The Tone</h2>
                                 <div className="description">The most fundamental argument around leadership is whether leadership is inherent to a person or whether it can be taught.</div>
-                                <div className="black-outline-btn"><Link href="/leaders-set-the-tone">Read More</Link></div>
+                                <div className="black-outline-btn"><Link href="/leaders-set-the-tone#post-details">Read More</Link></div>
                             </div>
                         </div>
                     </div>

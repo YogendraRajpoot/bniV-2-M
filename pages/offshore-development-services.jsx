@@ -38,7 +38,7 @@ export default function TalentSolution(){
                                 <a className="nav-link active" data-bs-toggle="tab" href="#what-we-do">What we do</a>
                                 </li>
                                 <li className="nav-item">
-                                <a className="nav-link" data-bs-toggle="tab" href="#our-core-services">Our Core Services</a>
+                                <a className="nav-link" data-bs-toggle="tab" href="#our-core-services">Our Core Solutions</a>
                                 </li>                                                            
                             </ul>
                         </div>
@@ -69,7 +69,7 @@ export default function TalentSolution(){
                                 </div>
                                 <div className="col-12 col-lg-8 col-xl-7 order-2 order-lg-1 order-xl-1">
                                     <div className="mission-content wow fadeInUp">
-                                        <h1 class="section-title">Our Core Services</h1>
+                                        <h1 className="section-title">Our Core Solutions</h1>
                                         <h5 className="section-title-v1">Offshore Development Center (ODC)</h5>                                        
                                         <p>Expand your team globally with our strategic offshore development solutions, designed to optimize costs, enhance productivity, and accelerate innovation without compromising quality. Our reliable and scalable offshore model connects you with top-tier talent specializing in a wide range of technologies, enabling you to expand operations efficiently while reducing costs by up to 60–80%.</p>
                                         <p>Why Choose Our Offshore Development Center?</p>

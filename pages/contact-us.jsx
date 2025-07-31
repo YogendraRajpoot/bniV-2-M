@@ -2,13 +2,67 @@ import React from 'react';
 import Head from 'next/head';
 import { useState, useEffect} from "react";
 import Link from 'next/link';
+import { Button, Modal, ModalBody, ModalFooter, FormGroup, Form, Input } from "reactstrap";
 import HelpWrapperComponent from '../components/HelpWrapperComponent';
 
 export default function ContactUs(){      
+    const [your_name, setName] = useState("");
+    const [your_email, setEmail] = useState("");
+    const [phone_number, setPhone] = useState("");     
+    const [service_name, setService] = useState(""); 
+    const [your_message, setMessage] = useState(""); 
+
     const displayStyle1 ={
         border: '0',
         width: '100%'
     } 
+
+    const addTodo = async () => {	
+        if (your_name === "" ){
+          return alert("Please enter Your Name.");
+        }	
+        if(your_email === ""){
+			return alert("Please enter email address.");
+		} 
+		if (phone_number === "" ){
+			return alert("Please enter Phone Number.");
+		} else if(phone_number.length<7 && phone_number.length<12){
+			return alert("Please enter at least 7 characters.");
+		}
+        if(service_name === ""){
+			return alert("Please Select Service.");
+		} 
+        if(your_message === ""){
+			return alert("Please Enter Your Message.");
+		}		
+		//alert(your_name+'--'+your_email+'--'+phone_number+'--'+service_name+'--'+your_message);
+		
+		const response = await fetch("https://bni-backend.onrender.com/api/contactus/create", {
+		  method: "POST",
+		  body: JSON.stringify({
+			your_name: your_name,
+			your_email: your_email,
+			phone_number: phone_number,
+			service_name: service_name,			
+			your_message: your_message,
+			subject: "Contact Form: Service Request"			
+		  }),
+		  headers: {
+			"content-type": "application/json",
+		  },
+		});
+		const data = await response.json();
+		//alert(data);    
+        //
+		//console.log(data);    
+		//alert(data.message); 		
+		if(!data.success)	{         
+          alert(data.message);
+		} else {
+           alert("Thank You. We will contact you soon!");
+		   //alert(data.message);
+		}	
+	};
     
     return(
         <>
@@ -41,26 +95,27 @@ export default function ContactUs(){
                                 <h1 className="section-title">Get in touch with us.
                                 <br/>We're here to
                                 <br/>assist you.</h1>
-                                <p>If you are looking for a diverse, well rounded team that has the technology expertise contact Business Needs Inc. to request a free assessment of consultation of your IT Process.</p>
+                                <p>If you are looking for a diverse, well rounded team that has the technology expertise contact Business Needs Inc. to request a <b>free consultation</b> of your IT processes.</p>
                             </div>
                         </div>
                         <div className="col-12 col-lg-7">
                             <div className="contact-form wow fadeInUp">
-                                <form>
+
+                                <Form className="et_pb_contact_form clearfix" id="book_demo_form" method="post" onSubmit={(e)=>{e.preventDefault(); addTodo();}}>
                                     <div className="row">
                                         <div className="col-12 col-md-6">
-                                            <input type="text" className="form-control form-control-lg mb-3 mt-3" id="your-name" placeholder="Your Name" name="your-name" /> 
+                                            <Input type="text" id="your_name" name="your_name" value={your_name} className="form-control form-control-lg mb-3 mt-3" required="required" placeholder="Your Name" onChange={(e) => setName(e.target.value)}> </Input>
                                         </div>
                                         <div className="col-12 col-md-6">
-                                            <input type="email" className="form-control form-control-lg mb-3 mt-3" id="email" placeholder="Email Address" name="email" />
+                                            <Input type="email" id="your_email" name="your_email" value={your_email} className="form-control form-control-lg mb-3 mt-3" required="required" placeholder="Email Address" onChange={(e) => setEmail(e.target.value)}></Input>
                                         </div>
                                     </div>
                                     <div className="row">
                                         <div className="col-12 col-md-6">
-                                            <input type="text" className="form-control form-control-lg mb-3 mt-3" id="phone-number" placeholder="Phone Number (optional)" name="your-name" /> 
+                                            <Input type="tel" id="phone_number" name="phone_number" value={phone_number} className="form-control form-control-lg mb-3 mt-3" required="required" placeholder="Phone Number (optional)" onChange={(e) => setPhone(e.target.value)}></Input>
                                         </div>
                                         <div className="col-12 col-md-6">
-                                            <select className="form-select form-select-lg mb-3 mt-3">
+                                            <Input type="select" id="service_name" name="service_name" className="form-select form-select-lg mb-3 mt-3" required="required" onChange={(e) => setService(e.target.value)}>
                                                 <option value="Staffing">Staffing</option>
                                                 <option value="IT Staffing">IT Staffing</option>
                                                 <option value="Healthcare Staffing">Healthcare Staffing</option>
@@ -74,16 +129,18 @@ export default function ContactUs(){
                                                 <option value="RPO">RPO</option>
                                                 <option value="Payroll Services">Payroll Services</option>
                                                 <option value="Offshore Development Services">Offshore Development Services</option>
-                                            </select> 
+                                            </Input> 
                                         </div>
                                     </div>
                                     <div className="row">
                                         <div className="col-12">
-                                            <textarea className="form-control form-control-lg mb-3 mt-3" rows="4" id="comment" name="text"></textarea>
+                                            <Input id="your_message" name="your_message" className="form-control form-control-lg mb-3 mt-3" type="textarea" rows="4" required="required" placeholder="Your Message" onChange={(e) => setMessage(e.target.value)}></Input>
                                         </div>
-                                    </div>
-                                    <button type="submit" className="btn btn-blue">Leave us a Message <span className="icon"><i className="fa fa-arrow-right" aria-hidden="true"></i></span></button>
-                                </form> 
+                                    </div>                                    
+                                    <Button type="submit" className="btn btn-blue">Leave us a Message <span className="icon"><i className="fa fa-arrow-right" aria-hidden="true"></i></span></Button>
+                                </Form> 
+
+                                
                             </div>
                         </div>
                     </div>
@@ -97,12 +154,11 @@ export default function ContactUs(){
                             <div className="contact-info">
                                 <div className="wow fadeInUp">
                                     <h5 className="section-title-v1">CONTACT INFO</h5>
-                                    <h1 className="section-title">We are always 
-                                        <br/>happy to assist you</h1>
+                                    <h1 className="section-title">We’re happy to help - just reach out.</h1>
                                 </div>
                                 <div className="find-us wow fadeInUp">
-                                    <h1 className="section-title">Find us</h1>
-                                    <p>Locate our regional office through the google map. Our team will assist you.</p>
+                                    <h1 className="section-title">Find Us</h1>
+                                    <p>Use the maps to locate our offices. Our team is happy to assist you with directions or scheduling a visit.</p>
                                 </div>
                             </div>
                         </div>

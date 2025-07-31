@@ -109,7 +109,7 @@ export default function OurTeamComponent() {
                         <div className="team-img"><img src="./images/Siddhi.png" alt="Siddhi Gupta" /></div>
                         <div className="team-content">
                             <h1>Siddhi Gupta</h1>
-                            <h5>Director - PR and Administration</h5>
+                            <h5>Director-HR</h5>
                         </div>
                     </div>
                 </div>

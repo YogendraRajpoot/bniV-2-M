@@ -37,7 +37,7 @@ export default function Jobs(){
                             <div className="career-bni wow fadeInUp">
                                 <h5 className="section-title-v1">CAREER AT BNI</h5>
                                 <h1 className="section-title">Join Our Team</h1>
-                                <p>BNI is a Team-oriented company that looks after every team member, gives autonomy to make choices, supports self-development and career growth. Our development team is always in search of talented individuals to join our team.</p>
+                                <p>BNI is a team-oriented organization that values autonomy, ownership, and professional growth. We’re always looking for passionate individuals to join our team and make a difference.</p>
                                 <p>Navigate below to see our current open positions!</p>
                             </div>
                         </div>
@@ -75,7 +75,7 @@ export default function Jobs(){
                                 <div className="column">
                                     <div className="img wow fadeInUp"><img src="images/gallery5.png" alt="" /></div>
                                     <div className="img wow fadeInUp"><img src="images/gallery8.png" alt="" /></div>
-                                    <div className="img wow fadeInUp"><img src="images/gallery4.png" alt="" /></div>
+                                    <div className="img wow fadeInUp"><img src="images/gallery9.png" alt="" /></div>
                                 </div>
                             </div>
                         </div>
@@ -117,7 +117,7 @@ export default function Jobs(){
                                         <div className="benefits-box wow fadeInUp">
                                             <div className="icon"><i className="bi bi-clock"></i></div>
                                             <div className="content-wrap">
-                                                <h5>Flexible working hours</h5>
+                                                <h5>Flexible Working Hours</h5>
                                                 <div className="content">Claim your autonomy. Set your own schedule.</div>
                                             </div>
                                         </div>
@@ -126,8 +126,8 @@ export default function Jobs(){
                                         <div className="benefits-box wow fadeInUp" data-wow-delay="0.1s">
                                             <div className="icon"><i className="bi bi-crosshair"></i></div>
                                             <div className="content-wrap">
-                                                <h5>Employee referral bonus</h5>
-                                                <div className="content">Claim your autonomy. Set your own schedule.</div>
+                                                <h5>Employee Referral Bonus</h5>
+                                                <div className="content">Earn big by helping us grow - refer top talent and get rewarded!</div>
                                             </div>
                                         </div>
                                     </div>
@@ -160,10 +160,10 @@ export default function Jobs(){
                                     </div>
                                     <div className="col-12 col-lg-6">
                                         <div className="benefits-box wow fadeInUp" data-wow-delay="0.5s">
-                                            <div className="icon"><i className="bi bi-clock"></i></div>
+                                            <div className="icon"><i className="fa fa-line-chart" aria-hidden="true"></i></div>
                                             <div className="content-wrap">
                                                 <h5>Growth Possibilities</h5>
-                                                <div className="content">Claim your autonomy. Set your own schedule.</div>
+                                                <div className="content">Unlock your true potential - endless growth opportunities await you here!</div>
                                             </div>
                                         </div>
                                     </div>
@@ -195,8 +195,8 @@ export default function Jobs(){
 
             <section className="success-story-wrapper gray-bg">
                 <div className="container">
-                    <h1 className="section-title wow fadeInUp">Employee Success Story</h1>
-                    <div className="section-top-content wow fadeInUp">Testimonials shared by our employee</div>
+                    <h1 className="section-title wow fadeInUp">Team Member Success Story</h1>
+                    <div className="section-top-content wow fadeInUp">Testimonials shared by our Team Member</div>
 
                     <JobTestimonialsSlider />
 

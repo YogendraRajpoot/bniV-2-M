@@ -4,6 +4,7 @@ import { useState, useEffect} from "react";
 import Link from 'next/link';
 import dynamic from "next/dynamic";
 import HelpWrapperComponent from '../components/HelpWrapperComponent';
+import InsightsDetailsComponent from '../components/InsightsDetailsComponent';
 
 const InsightsComponent = dynamic(() => import('@/components/InsightsComponent'), {  ssr: false});
 
@@ -35,7 +36,7 @@ export default function LeadersSetTheTone(){
                 </div>
             </section>
 
-            <section className="insights-details-wrapper">
+            <section className="insights-details-wrapper" id="post-details">
                 <div className="container">
                     <div className="insights-details-wrap">
                         <div className="row">
@@ -47,9 +48,8 @@ export default function LeadersSetTheTone(){
                                     </div>
                                     <h1 className="wow fadeInUp">Leaders Set The Tone</h1>
                                     <div className="insights-img wow fadeInUp"><img src="images/leaders.jpg" alt="" /></div>
-                                    <div className="insights-content wow fadeInUp">
-                                       <div class="author-thought">
-                                            <h4 class="thought">“The leaders and their leadership styles set the tone of organizational culture. Whether a person is leading a project or organization, they must keep in mind that the people follow what they see and not necessarily what they hear.”</h4>
+                                    <div className="insights-content wow fadeInUp">                                      
+                                            <h4 className="thought">“The leaders and their leadership styles set the tone of organizational culture. Whether a person is leading a project or organization, they must keep in mind that the people follow what they see and not necessarily what they hear.”</h4>
                                             <p>The most fundamental argument around leadership is whether leadership is inherent to a person or whether it can be taught. There have been many studies, debates, and opinions on the subject of leadership. Some would argue that leaders are born, but others strongly believe that leaders can be created. Though there are no definitive answers for these arguments, there is certainly some research data showing that a greater amount of factors impacting a person's leadership ability can be taught but require certain personality traits that people may possess from birth or learned via internal desire. However, other approaches like style, skills, etc. can be learned as part of education or experience.</p>
                                             <p>The transformational leadership is truly driving a lot of research as this relates to a mutual relationship between a leader and a follower. As Northouse (2010, p.172) defined, transformation leadership is the process whereby a person engages with others and creates a connection that raises the level of motivation and morality in both the leader and the follower.It is impressive how transformational leaders attend to each followers needs, act as a mentor, give empathy and support and keep communication open. They encourage people to be innovative, creative and articulate a vision that is appealing and inspiring to others. These leaders can be seen as charismatic people, who can influence groups to follow blindly.</p>
                                             <p><strong>Characteristics of Leaders</strong></p>
@@ -69,77 +69,12 @@ export default function LeadersSetTheTone(){
                                             <p><strong>References</strong></p>
                                             <p>Northouse P. G., (2010) Leadership: Theory and Practice p. 172<em>,</em></p>
                                             <p>Kaiser R. B., McGinnis J. L. and Overfield D.V., (2012), The How and the What of Leadership <em>Consulting Psychology Journal: Practice and Research</em>,<em>Vol.64</em>&nbsp;</p>
-                                        </div>
                                     </div>                                
                                 </div>
                             </div>
-                            <div className="col-12 col-md-4 col-lg-3">
-                                <div className="insights-right-side">
-                                    <div className="categories-section wow fadeInUp">
-                                        <h4>Categories</h4>
-                                        <Link className="link" href="/insights">Blogs</Link>                                                                        
-                                    </div>
-                                    <div className="popular-topics-section wow fadeInUp">
-                                        <h4>Popular Topics:</h4>
-                                        <div className="popular-topic">
-                                            <div className="news-category">
-                                                <span className="category">Blogs</span>
-                                                <span className="date">9 December, 2024</span>
-                                            </div>
-                                            <h5>Listening is The Communication</h5>
-                                            <div className="read-more"><Link href="/listening-is-the-communication">Read More</Link></div>
-                                        </div>
-                                        <div className="popular-topic">
-                                            <div className="news-category">
-                                                <span className="category">Blogs</span>
-                                                <span className="date">10 July, 2024</span>
-                                            </div>
-                                            <h5>Managing Your Project Sponsors</h5>
-                                            <div className="read-more"><Link href="/managing-your-project-sponsors">Read More</Link></div>
-                                        </div>                                        
-                                        <div className="popular-topic">
-                                            <div className="news-category">
-                                                <span className="category">Blogs</span>
-                                                <span className="date">11 November, 2023</span>
-                                            </div>
-                                            <h5>Why Do Many IT Projects Fail?</h5>
-                                            <div className="read-more"><Link href="/why-do-many-it-projects-fail">Read More</Link></div>
-                                        </div>
-                                        <div className="popular-topic">
-                                            <div className="news-category">
-                                                <span className="category">Blogs</span>
-                                                <span className="date">5 August, 2023</span>
-                                            </div>
-                                            <h5>Make Your Project Execution Phase As Boring As Possible</h5>
-                                            <div className="read-more"><Link href="/make-your-project-execution">Read More</Link></div>
-                                        </div>                                          
-                                        <div className="popular-topic">
-                                            <div className="news-category">
-                                                <span className="category">Blogs</span>
-                                                <span className="date">25 March, 2023</span>
-                                            </div>
-                                            <h5>Effective Process Or Efficiency Killer</h5>
-                                            <div className="read-more"><Link href="/effective-process-efficiency-killer">Read More</Link></div>
-                                        </div>
-                                        <div className="popular-topic">
-                                            <div className="news-category">
-                                                <span className="category">Blogs</span>
-                                                <span className="date">11 December, 2022</span>
-                                            </div>
-                                            <h5>You Can Never Over Communicate</h5>
-                                            <div className="read-more"><Link href="/you-can-never-over-communicate">Read More</Link></div>
-                                        </div>
-                                        <div className="popular-topic">
-                                            <div className="news-category">
-                                                <span className="category">Blogs</span>
-                                                <span className="date">17 January, 2022</span>
-                                            </div>
-                                            <h5>Every Manager Must Study Sociology</h5>
-                                            <div className="read-more"><Link href="/every-manager-must-study-sociology">Read More</Link></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+
+                            <InsightsDetailsComponent />
+
                         </div>
                     </div>
                 </div>

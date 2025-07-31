@@ -62,7 +62,7 @@ export default function AboutUs(){
                                         <h1 className="section-title">A Team You Can Rely On</h1>
                                         <p>At Business Needs Inc., we provide IT & workforce solutions, and we are a trusted partner in driving growth and innovation. Since 2004, we have empowered businesses across industries with cutting-edge, customized technology solutions that address today’s unique challenges, from rapid advancements in AI to the pressing demands of the digital age.</p>
                                         <p>Our services encompass IT consulting, staff augmentation, and offshore development centers, backed by deep expertise in information technology, professional staffing, healthcare staffing, contingent workforce solutions, direct hire, and cutting-edge web and mobile app development. Whether you're seeking top-tier tech talent or comprehensive end-to-end IT solutions, our expert team seamlessly connects you with professionals who grasp your most complex challenges. By integrating cutting-edge technology and refined processes, we ensure high-quality delivery that drives efficiency and innovation.</p>
-                                        <p>Let’s collaborate to elevate your business with tailored, expert solutions that make an impact- Contact Business Needs Inc. today for a free consultation.</p>
+                                        <p>Let’s collaborate to elevate your business with tailored, expert solutions that make an impact. Contact Business Needs Inc. today for a free consultation.</p>
                                         <div className="blue-btn"><Link href="/contact-us">Let’s Connect</Link></div>
                                     </div>
                                 </div>
@@ -83,9 +83,9 @@ export default function AboutUs(){
                                 </div>
                                 <div className="col-12 col-lg-8 col-xl-7 order-2 order-lg-1 order-xl-1">
                                     <div className="mission-content wow fadeInUp">      
-                                        <h5 class="section-title-v1">OUR CORE VALUES</h5>
-                                        <h1 class="section-title">We foster client-centered partnerships, deliver innovative solutions, and uphold excellence, agility, diversity, and inclusion</h1>
-                                        <p>Rooted in kindness, trust, and respect, we prioritize building long-term partnerships. Your success is our mission—your goals become our goals.</p>
+                                        <h5 className="section-title-v1">OUR CORE VALUES</h5>
+                                        <h1 className="section-title">We foster client-centered partnerships, deliver innovative solutions, and uphold excellence, agility, diversity, and inclusion</h1>
+                                        <p>We are rooted in kindness, trust, and respect — prioritizing long-term partnerships where your goals become our mission.</p>
                                         <p>Driven by a commitment to innovation, we stay ahead of the curve. From embracing cutting-edge technologies like AI to proactively researching emerging trends, we deliver forward-thinking results.</p>
                                         <p>Whether it’s staffing, consulting, or web development, we are committed to delivering exceptional quality—on time, on target, and with precision.</p>
                                         <p>In today’s fast-paced, ever-evolving tech landscape, we continuously learn, adapt, and deliver. Business Needs Inc. evolves with your needs, ensuring you always stay ahead.</p>
@@ -107,8 +107,8 @@ export default function AboutUs(){
                                 </div>
                                 <div className="col-12 col-md-8 col-lg-7">
                                     <div className="mission-content wow fadeInUp">                                        
-                                        <h5 class="section-title-v1">OUR VISION</h5>
-                                        <h1 class="section-title">Igniting Inspiration, Creating Opportunities, Driving Innovation, Inspiring Growth and Building Trust</h1>
+                                        <h5 className="section-title-v1">OUR VISION</h5>
+                                        <h1 className="section-title">Igniting Inspiration, Creating Opportunities, Driving Innovation, Inspiring Growth and Building Trust</h1>
                                         <p>At Business Needs, we're committed to igniting inspiration, driving innovation and creating economic opportunities for everyone. We fulfill all your business needs not through a single service or product, but by becoming your trusted partner—your right hand and shoulder to lean on for every complex challenge. From comprehensive staffing solutions to end-to-end app development, we cover it all from inception to delivery.</p>
                                         <p>Our vision is to empower your success by blending creativity, expertise, and unwavering support, paving the path toward a future of limitless possibilities.</p>
                                     </div>
@@ -127,9 +127,9 @@ export default function AboutUs(){
                                 </div>
                                 <div className="col-12 col-lg-8 col-xl-7 order-2 order-lg-1 order-xl-1">
                                     <div className="mission-content wow fadeInUp">  
-                                        <h5 class="section-title-v1">OUR MISSION</h5>
-                                        <h1 class="section-title">Empowering Businesses, Increasing Efficiency, Delivering Excellence, and Fostering Long-Term Success</h1>
-                                        <p>At Business Needs, we are committed to delivering innovative and scalable IT and staffing solutions that propel business growth and success. By fostering trusted partnerships, we empower our clients in every venture, providing them with high-quality delivery, dependable support, and measurable impact.</p>
+                                        <h5 className="section-title-v1">OUR MISSION</h5>
+                                        <h1 className="section-title">Empowering Businesses, Increasing Efficiency, Delivering Excellence, and Fostering Long-Term Success</h1>
+                                        <p>At Business Needs, we are committed to delivering innovative and scalable IT and staffing solutions that propel business growth and success. By fostering trusted partnerships, we empower our clients in each venture, providing them with high-quality delivery, dependable support, and measurable impact.</p>
                                         <p>Our mission is to equip businesses with the right talent and cutting-edge technology to drive efficiency, innovation, and long-term success.</p>
                                     </div>
                                 </div>
@@ -214,9 +214,9 @@ export default function AboutUs(){
                 */
             }        
 
-            <section class="timeline-wrapper" id="our-history">
-                <div class="container">                    
-                    <h1 class="section-title text-center">Our History</h1>
+            <section className="timeline-wrapper" id="our-history">
+                <div className="container">                    
+                    <h1 className="section-title text-center">Our History</h1>
                      <div className="timeline-main-img"><img src="images/company-milestones.jpg" alt="" /></div>
                 </div>
             </section> 

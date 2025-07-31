@@ -77,7 +77,7 @@ export default function EmployeeSlider() {
                             </div>
                             <div className="col-12 col-lg-5">
                                 <div className="empolyee-right">
-                                    <div className="empolyee-img"><img src="./images/team-02.png" alt="" /></div>
+                                    <div className="empolyee-img"><img src="./images/Siddhi.png" alt="" /></div>
                                     <div className="employee-designation">
                                         <h2>Siddhi Gupta</h2>
                                         <h3>HR Director</h3>

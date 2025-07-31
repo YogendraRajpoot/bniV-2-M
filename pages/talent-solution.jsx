@@ -99,8 +99,8 @@ export default function TalentSolution(){
                                     <p className='section-top-content wow fadeInUp'>We’re not just filling roles. We’re building teams that move your business forward.</p>
                                 </div>
                             </div>
-                            <div className="col-12 col-lg-6 align-self-end">
-                                <div className="choose-image wow fadeInUp"><img src="./images/why-bni.png" alt="" /></div>
+                            <div className="col-12 col-lg-6">
+                                <div className="choose-image wow fadeInUp"><img src="./images/value-prepos.png" alt="" /></div>
                             </div>
                         </div>
                     </div>
@@ -118,7 +118,7 @@ export default function TalentSolution(){
                                 </div>
                                 <div className="col-12 col-lg-8 col-xl-7 order-2 order-lg-1 order-xl-1">
                                     <div className="mission-content wow fadeInUp">
-                                        <h1 class="section-title">Our Core Services</h1>
+                                        <h1 className="section-title">Our Core Services</h1>
                                         <h5 className="section-title-v1">IT Staffing Services</h5>                                        
                                         <p>We offer flexible, scalable IT staffing solutions tailored to your specific business requirements. Whether you're looking to fill a single role or build an entire team. Our staffing model is designed to reduce time-to-hire, ensure technical precision, and support long-term success.</p>
                                         <p>Roles We support but not limited to:</p>

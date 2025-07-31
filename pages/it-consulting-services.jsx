@@ -67,7 +67,7 @@ export default function TalentSolution(){
                                 </div>
                                 <div className="col-12 col-lg-8 col-xl-7 order-2 order-lg-1 order-xl-1">
                                     <div className="mission-content wow fadeInUp">
-                                        <h1 class="section-title">Our Core Services</h1>
+                                        <h1 className="section-title">Our Core Services</h1>
                                         <h5 className="section-title-v1">Web Application Development</h5>                                        
                                         <p>We specialize in designing and developing high-performance web applications that are robust, user-friendly, and scalable to meet diverse business needs. Whether you're looking for internal business intelligence platforms, enterprise portals, or customer-facing digital experiences, we craft solutions that align seamlessly with your company’s vision and technical requirements.</p>
                                         <p>By leveraging a cutting-edge tech stack, we build applications that integrate effortlessly with existing infrastructure while delivering outstanding user experience.</p>

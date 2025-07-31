@@ -55,7 +55,7 @@ export default function OurServices(){
                                     <div className="why-bin-content">                                        
                                         <h5 className="section-title-v1">WHAT WE DO</h5>
                                         <h1 className="section-title">Empowering Global Businesses: Tailored IT & Talent Solutions for Dynamic Growth</h1>
-                                        <p>At Business Needs Inc., we specialize in cutting-edge Information Technology services and strategic Talent solutions, empowering companies worldwide. We recognize that every client is unique—there is no one-size-fits-all approach in the dynamic world of technology.</p>
+                                        <p>At Business Needs Inc., we specialize in cutting-edge Information Technology Services and Strategic Talent Solutions, empowering companies worldwide. We recognize that every client is unique—there is no one-size-fits-all approach in the dynamic world of technology.</p>
                                         <p>With a commitment to innovation, precision, and excellence, we help companies to accelerate business growth and success. From IT consulting and app development to global staffing and workforce solutions, our services are tailored to meet your specific needs. Our seasoned experts bring the right tools, talent, and strategies to deliver tangible, measurable results, helping you thrive in an ever-evolving business landscape. </p>
                                     </div>
                                 </div>
@@ -92,7 +92,7 @@ export default function OurServices(){
                                 <div className="unified-vision wow fadeInUp">
                                     <div className="content">
                                         <h4>Creative and Marketing Staffing</h4>
-                                        <p>From graphic designers and copywriters to UX/UI specialists, we help your brand find the professionals who bring your image to life. Our talent pool ranges strategic thinkers and hands-on creators involved in branding, crafting content, campaigns, and digital engagement.</p>
+                                        <p>From graphic designers and copywriters to UX/UI specialists, we help your brand find the professionals who bring your image to life. Our talent pool includes strategic thinkers and hands-on creators involved in branding, crafting content, campaigns, and digital engagement.</p>
                                     </div>
                                     <div className="icon">
                                         <Link href="/talent-solution#creative-marketing"><i className="fa fa-arrow-right" aria-hidden="true"></i></Link>

@@ -70,8 +70,8 @@ export default function OurProductPortfolio(){
                                 </div>
                                 <div className="col-12 col-lg-8 col-xl-7 order-2 order-lg-1 order-xl-1">
                                     <div className="mission-content wow fadeInUp">
-                                        <h1 class="section-title">Our Products</h1>
-                                        <h5 className="section-title-v1">Onpoint Solutions:</h5>                                        
+                                        <h1 className="section-title">Our Products</h1>
+                                        <h5 className="section-title-v1">Onpoint Solution:</h5>                                        
                                         <p>OnPointSolution.ai aims to provide businesses with reliable insights and enhanced intelligence using smart mobility, enabling them to innovate, optimize operations and make crucial decisions using an AI-driven platform.</p>
                                         <p>OnPoint Solution's processes, products and organizational structure are geared towards ensuring that every delivery to the clients passes through our stringent quality measures. This policy has fostered a work culture that believes in stretching innovative thinking to its limits and exhibiting an uncompromising attitude towards quality and client satisfaction.</p>
                                         <p>Based on years of software products and professional services consulting work in the carrier class wireless space, it became clear to us that a market need exists for more comprehensive fleet data insights that enable accelerated development of reliable applications to support the myriad of unaddressed Smart Mobility fleet use cases.</p>
@@ -92,7 +92,7 @@ export default function OurProductPortfolio(){
                                 <div className="col-12 col-md-8 col-lg-7">
                                     <div className="mission-content wow fadeInUp">
                                         <h5 className="section-title-v1">Onpoint Scheduling:</h5>                                    
-                                        <p>A digital tool designed to help users organize and manage their time effectively. The app allow individuals or teams to plan appointments, meetings, tasks, and events with ease.</p>
+                                        <p>A digital tool designed to help users organize and manage their time effectively. The app allows individuals or teams to plan appointments, meetings, tasks, and events with ease.</p>
                                         <p>Whether for personal use, professional meetings, or service-based businesses, OnPoint scheduling streamlines time management. A specialized tool designed for users to efficiently manage and organize
                                         schedules. Its main purpose is to simplify the process of planning and timetable creation.</p>
                                         <p>Key features include:</p>
@@ -119,8 +119,8 @@ export default function OurProductPortfolio(){
                                     </div>
                                     <div className="col-12 col-lg-8 col-xl-7 order-2 order-lg-1 order-xl-1">
                                         <div className="mission-content wow fadeInUp">
-                                            <h5 className="section-title-v1">Restaurant Application (In Development):</h5>                                        
-                                            <p>A mobile application designed to enhance the dining experience by offering users convenient access to a restaurant’s services and features. The application allow customers to:</p>
+                                            <h5 className="section-title-v1">Restaurant Application (Coming Soon):</h5>                                        
+                                            <p>A mobile application designed to enhance the dining experience by offering users convenient access to a restaurant’s services and features. The application allows customers to:</p>
                                         <ul>
                                             <li>· Browse the menu with detailed descriptions and images</li>
                                             <li>· Place orders for pickup or delivery</li>
